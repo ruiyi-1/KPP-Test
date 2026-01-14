@@ -107,10 +107,15 @@ html, body {
 }
 
 /* 确保 TabBar 没有额外的 margin 或 padding，避免与导航按钮之间的间隙 */
+/* Safari 兼容：添加底部安全区域间距，避免被 Safari 底部菜单栏遮挡 */
 .adm-tab-bar {
   margin: 0 !important;
   padding: 0 !important;
+  padding-bottom: max(env(safe-area-inset-bottom), 0px) !important;
   border-top: none !important;
+  position: relative;
+  z-index: 100;
+  background-color: var(--adm-color-background, #ffffff);
 }
 
 .adm-tab-bar-item {
