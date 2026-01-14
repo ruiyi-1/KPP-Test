@@ -248,7 +248,6 @@ export const Exam = forwardRef<ExamHandle>((_, ref) => {
         <NavBar back={null}>{t('exam.title')}</NavBar>
         <div className="exam-start">
           <div className="exam-info">
-            <h2>{t('exam.title')}</h2>
             <p>{t('exam.totalQuestions')}: {examQuestionCount}</p>
             <p>{t('exam.passingScore')}: {passingScore} / {examQuestionCount}</p>
             <p>{t('exam.duration')}: {examDuration} {t('settings.minutes')}</p>
