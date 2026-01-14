@@ -222,7 +222,7 @@ export const Settings = () => {
               prefix={t('settings.github')}
               extra={
                 <a
-                  href="https://github.com"
+                  href="https://github.com/ruiyi-1/KPP-Test"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="github-link"
