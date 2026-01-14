@@ -20,6 +20,11 @@ screenshots/
 !docs/images/*.png
 !docs/images/*.jpg
 !docs/images/*.jpeg
+# 允许 web/public/images/ 目录（用于Web应用的图片资源）
+!web/public/images/
+!web/public/images/**/*.png
+!web/public/images/**/*.jpg
+!web/public/images/**/*.jpeg
 
 # 进度文件（包含临时状态）
 scripts/progress.json
