@@ -124,9 +124,17 @@
   margin: 16px 0;
 }
 
+.result-container {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
 .result-message {
   padding: 12px 0;
-  margin: 16px 0;
+  width: 100%;
   border-radius: 8px;
   text-align: center;
   font-size: 18px;
@@ -143,6 +151,13 @@
   background-color: #fff2f0;
   color: #ff4d4f;
   border: 1px solid #ffccc7;
+}
+
+.add-to-wrong-set-button {
+  width: 100%;
+  max-width: 320px;
+  min-width: 180px;
+  font-weight: 600;
 }
 
 .navigation-buttons {

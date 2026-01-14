@@ -36,3 +36,11 @@ export interface WrongAnswer {
   userAnswer: string;
   correctAnswer: string;
 }
+
+export interface WrongQuestion {
+  questionId: string;
+  question: Question;
+  userAnswer: string;
+  correctAnswer: string;
+  addedAt: number; // 时间戳
+}

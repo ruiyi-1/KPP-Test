@@ -1,17 +1,43 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { NavBar, List, Card, Switch, Picker } from 'antd-mobile';
 import { useTranslation } from 'react-i18next';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
+import { getWrongQuestions } from '../../utils';
 import './Settings.css';
 
 export const Settings = () => {
   const { i18n, t } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useLocalStorage('i18n_language', i18n.language);
   const [defaultShowTranslation, setDefaultShowTranslation] = useLocalStorage('defaultShowTranslation', false);
-  const [translationLanguage, setTranslationLanguage] = useLocalStorage('translationLanguage', i18n.language);
+  const [autoAddToWrongSet, setAutoAddToWrongSet] = useLocalStorage('autoAddToWrongSet', true);
   const [examQuestionCount, setExamQuestionCount] = useLocalStorage('examQuestionCount', 50);
   const [passingScore, setPassingScore] = useLocalStorage('passingScore', 42);
   const [examDuration, setExamDuration] = useLocalStorage('examDuration', 45);
+  const [wrongQuestionsCount, setWrongQuestionsCount] = useState(() => getWrongQuestions().length);
+
+  // 监听错题集变化，更新数量显示
+  useEffect(() => {
+    const updateCount = () => {
+      setWrongQuestionsCount(getWrongQuestions().length);
+    };
+    
+    // 监听 storage 事件（跨标签页同步）
+    const handleStorageChange = (e: StorageEvent) => {
+      if (e.key === 'wrongQuestions') {
+        updateCount();
+      }
+    };
+    
+    window.addEventListener('storage', handleStorageChange);
+    
+    // 定期检查（用于同标签页内的更新）
+    const interval = setInterval(updateCount, 1000);
+    
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+      clearInterval(interval);
+    };
+  }, []);
 
   // 使用 useRef 保存之前的界面语言
   const prevLanguageRef = useRef(i18n.language);
@@ -27,14 +53,6 @@ export const Settings = () => {
     // 更新 i18n 语言
     i18n.changeLanguage(currentLanguage);
     
-    // 检查用户是否手动设置过翻译语言
-    const hasManuallySet = localStorage.getItem('translationLanguageManuallySet') === 'true';
-    
-    // 如果用户没有手动设置过翻译语言，或者翻译语言和旧的界面语言一致，则同步更新翻译语言
-    if (!hasManuallySet || translationLanguage === prevLanguage) {
-      setTranslationLanguage(currentLanguage);
-    }
-    
     // 更新之前的界面语言
     prevLanguageRef.current = currentLanguage;
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -49,11 +67,6 @@ export const Settings = () => {
     label: lang.label,
     value: lang.value,
   }));
-
-  const availableTranslationLanguages = [
-    { label: '中文', value: 'zh' },
-    { label: 'English', value: 'en' },
-  ];
 
   const examQuestionCountOptions = Array.from({ length: 19 }, (_, i) => ({
     label: `${(i + 1) * 5}`,
@@ -73,16 +86,11 @@ export const Settings = () => {
     };
   });
 
-  const translationLanguageOptions = availableTranslationLanguages.map(lang => ({
-    label: lang.label,
-    value: lang.value,
-  }));
-
   return (
     <div className="settings-page">
       <NavBar back={null}>{t('settings.title')}</NavBar>
       <div className="settings-content">
-        <Card title={t('settings.interfaceLanguage')} className="settings-card">
+        <Card title={t('settings.language')} className="settings-card">
           <List>
             <Picker
               columns={[interfaceLanguageOptions]}
@@ -90,43 +98,18 @@ export const Settings = () => {
               onConfirm={(val) => {
                 if (val[0]) {
                   setCurrentLanguage(val[0] as string);
+                  // 同步更新翻译语言
+                  localStorage.setItem('translationLanguage', JSON.stringify(val[0]));
                 }
               }}
             >
               {(items, { open }) => (
                 <List.Item
-                  prefix={t('settings.interfaceLanguage')}
+                  prefix={t('settings.language')}
                   clickable
                   onClick={open}
                   extra={
                     items[0] ? items[0].label : interfaceLanguageOptions.find(opt => opt.value === currentLanguage)?.label || ''
-                  }
-                />
-              )}
-            </Picker>
-          </List>
-        </Card>
-
-        <Card title={t('settings.translation')} className="settings-card">
-          <List>
-            <Picker
-              columns={[translationLanguageOptions]}
-              value={[translationLanguage]}
-              onConfirm={(val) => {
-                if (val[0]) {
-                  setTranslationLanguage(val[0] as string);
-                  // 标记用户已手动设置翻译语言
-                  localStorage.setItem('translationLanguageManuallySet', 'true');
-                }
-              }}
-            >
-              {(items, { open }) => (
-                <List.Item
-                  prefix={t('settings.translationLanguage')}
-                  clickable
-                  onClick={open}
-                  extra={
-                    items[0] ? items[0].label : translationLanguageOptions.find(opt => opt.value === translationLanguage)?.label || ''
                   }
                 />
               )}
@@ -139,6 +122,29 @@ export const Settings = () => {
                   onChange={(checked) => setDefaultShowTranslation(checked)}
                 />
               }
+            />
+          </List>
+        </Card>
+
+        <Card title={t('settings.practice')} className="settings-card">
+          <List>
+            <List.Item
+              prefix={t('settings.autoAddToWrongSet')}
+              extra={
+                <Switch
+                  checked={autoAddToWrongSet}
+                  onChange={(checked) => setAutoAddToWrongSet(checked)}
+                />
+              }
+            />
+            <List.Item
+              prefix={t('settings.wrongQuestionsList')}
+              clickable
+              onClick={() => {
+                // 通过自定义事件通知 App 组件打开错题集列表
+                window.dispatchEvent(new CustomEvent('openWrongQuestions'));
+              }}
+              extra={`${wrongQuestionsCount} ${t('settings.items')}`}
             />
           </List>
         </Card>

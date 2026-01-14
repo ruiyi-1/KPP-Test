@@ -23,7 +23,8 @@
     "cancel": "Cancel",
     "jump": "Jump",
     "questionNumberTooSmall": "Question number cannot be less than 1",
-    "questionNumberTooLarge": "Question number cannot be greater than {count}"
+    "questionNumberTooLarge": "Question number cannot be greater than {count}",
+    "addToWrongSet": "Add to Wrong Set"
   },
   "exam": {
     "title": "Mock Exam",
@@ -64,10 +65,16 @@
   },
   "settings": {
     "title": "Settings",
-    "interfaceLanguage": "Language",
-    "translation": "Translation",
-    "translationLanguage": "Translation Language",
+    "language": "Language",
     "defaultShowTranslation": "Enable translation",
+    "practice": "Practice Settings",
+    "autoAddToWrongSet": "Auto add to wrong set",
+    "wrongQuestions": "Wrong Questions",
+    "wrongQuestionsList": "Wrong Questions List",
+    "clearWrongSet": "Clear Wrong Set",
+    "clearWrongSetConfirm": "Are you sure you want to clear {count} wrong questions?",
+    "clear": "Clear",
+    "items": "items",
     "examSettings": "Exam Settings",
     "examQuestionCount": "Exam Question Count",
     "passingScore": "Passing Score",
@@ -88,6 +95,19 @@
     "questionNumber": "Question",
     "correctAnswer": "Correct Answer",
     "notAvailable": "N/A"
+  },
+  "wrongQuestions": {
+    "title": "Wrong Questions",
+    "detail": "Question Detail",
+    "empty": "No wrong questions",
+    "total": "Total {{count}} wrong questions",
+    "yourAnswer": "Your Answer",
+    "correctAnswer": "Correct Answer",
+    "removeFromSet": "Remove from Set",
+    "remove": "Remove",
+    "startPractice": "Start Practice",
+    "clearAll": "Clear All",
+    "clearConfirm": "Are you sure you want to clear {count} wrong questions?"
   },
   "questions": {
     "_comment": "Translations use translationKey as key, format: questions.{translationKey}.question and questions.{translationKey}.options.{A/B/C}",

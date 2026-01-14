@@ -1,22 +1,37 @@
 .question-card {
   margin: 0;
+  margin-top: 0 !important;
   padding: 0px 4px;
+  padding-top: 0 !important;
+}
+
+.question-card .adm-card-body {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .question-content {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .question-text {
   font-size: 18px;
   line-height: 1.6;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .question-main {
   font-weight: 500;
+  margin-top: 0;
   margin-bottom: 0;
+  padding-top: 0;
 }
 
 .question-translation {

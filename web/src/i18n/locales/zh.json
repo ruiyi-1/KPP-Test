@@ -23,7 +23,8 @@
     "cancel": "取消",
     "jump": "跳转",
     "questionNumberTooSmall": "题号不能小于 1",
-    "questionNumberTooLarge": "题号不能大于 {count}"
+    "questionNumberTooLarge": "题号不能大于 {count}",
+    "addToWrongSet": "加入错题集"
   },
   "exam": {
     "title": "模拟考试",
@@ -64,10 +65,16 @@
   },
   "settings": {
     "title": "设置",
-    "interfaceLanguage": "语言",
-    "translation": "翻译设置",
-    "translationLanguage": "翻译语言",
+    "language": "语言",
     "defaultShowTranslation": "启用翻译",
+    "practice": "练习设置",
+    "autoAddToWrongSet": "自动加入错题集",
+    "wrongQuestions": "错题数量",
+    "wrongQuestionsList": "错题集列表",
+    "clearWrongSet": "清空错题集",
+    "clearWrongSetConfirm": "确定要清空 {count} 道错题吗？",
+    "clear": "清空",
+    "items": "道",
     "examSettings": "考试设置",
     "examQuestionCount": "考试题目数量",
     "passingScore": "及格题目数量",
@@ -88,6 +95,19 @@
     "questionNumber": "题目",
     "correctAnswer": "正确答案",
     "notAvailable": "无"
+  },
+  "wrongQuestions": {
+    "title": "错题集",
+    "detail": "错题详情",
+    "empty": "暂无错题",
+    "total": "共 {{count}} 道错题",
+    "yourAnswer": "您的答案",
+    "correctAnswer": "正确答案",
+    "removeFromSet": "从错题集中移除",
+    "remove": "移除",
+    "startPractice": "开始练习",
+    "clearAll": "清空全部",
+    "clearConfirm": "确定要清空 {count} 道错题吗？"
   },
   "questions": {
     "_comment": "翻译使用translationKey作为key，格式：questions.{translationKey}.question 和 questions.{translationKey}.options.{A/B/C}",

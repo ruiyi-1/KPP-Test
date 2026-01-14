@@ -4,14 +4,23 @@ import { GlobalOutline, EyeInvisibleOutline } from 'antd-mobile-icons';
 import { useTranslation } from 'react-i18next';
 import { QuestionCard } from '../../components/QuestionCard/QuestionCard';
 import { OptionItem } from '../../components/OptionItem/OptionItem';
-import { getAllQuestions } from '../../utils';
+import { getAllQuestions, addWrongQuestion, isQuestionInWrongSet, getQuestionById } from '../../utils';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { logger } from '../../utils/logger';
 import './Practice.css';
 
-export const Practice = () => {
+interface PracticeProps {
+  wrongQuestionIds?: string[];
+}
+
+export const Practice = ({ wrongQuestionIds }: PracticeProps = { wrongQuestionIds: undefined }) => {
   const { t } = useTranslation();
-  const questions = getAllQuestions();
+  const allQuestions = getAllQuestions();
+  
+  // 如果提供了错题 ID 列表，则只显示这些题目
+  const questions = wrongQuestionIds && wrongQuestionIds.length > 0
+    ? wrongQuestionIds.map(id => getQuestionById(id)).filter((q): q is NonNullable<typeof q> => q !== undefined)
+    : allQuestions;
   
   // 从 localStorage 读取上次的题号
   const getInitialIndex = () => {
@@ -33,19 +42,32 @@ export const Practice = () => {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [showTranslation, setShowTranslation] = useLocalStorage('defaultShowTranslation', false);
+  const [autoAddToWrongSet] = useLocalStorage('autoAddToWrongSet', true);
   const [showJumpDialog, setShowJumpDialog] = useState(false);
   const [jumpInputValue, setJumpInputValue] = useState('');
   
   const currentQuestion = questions[currentIndex];
+  const [isInWrongSet, setIsInWrongSet] = useState(() => 
+    currentQuestion ? isQuestionInWrongSet(currentQuestion.id) : false
+  );
 
-  // 当题号变化时，保存到 localStorage
+  // 当题目变化时，更新是否在错题集中的状态
   useEffect(() => {
-    try {
-      localStorage.setItem('lastPracticeIndex', JSON.stringify(currentIndex));
-    } catch (error) {
-      logger.error('[Practice] Error saving lastPracticeIndex to localStorage:', error);
+    if (currentQuestion) {
+      setIsInWrongSet(isQuestionInWrongSet(currentQuestion.id));
     }
-  }, [currentIndex]);
+  }, [currentQuestion]);
+
+  // 当题号变化时，保存到 localStorage（只在非错题集模式下保存）
+  useEffect(() => {
+    if (!wrongQuestionIds || wrongQuestionIds.length === 0) {
+      try {
+        localStorage.setItem('lastPracticeIndex', JSON.stringify(currentIndex));
+      } catch (error) {
+        logger.error('[Practice] Error saving lastPracticeIndex to localStorage:', error);
+      }
+    }
+  }, [currentIndex, wrongQuestionIds]);
 
   // 调试日志
   logger.log('[Practice] Component state:', {
@@ -65,6 +87,23 @@ export const Practice = () => {
     if (showResult) return;
     setSelectedAnswer(label);
     setShowResult(true);
+    
+    const isWrong = label !== currentQuestion.correctAnswer;
+    
+    // 如果答错了且开启了自动加入错题集，自动加入
+    if (isWrong && autoAddToWrongSet) {
+      addWrongQuestion(currentQuestion, label, currentQuestion.correctAnswer || '');
+      // 更新是否在错题集中的状态
+      setIsInWrongSet(true);
+    }
+  };
+
+  const handleAddToWrongSet = () => {
+    if (selectedAnswer && selectedAnswer !== currentQuestion.correctAnswer) {
+      addWrongQuestion(currentQuestion, selectedAnswer, currentQuestion.correctAnswer || '');
+      // 更新是否在错题集中的状态
+      setIsInWrongSet(true);
+    }
   };
 
   const handleNext = () => {
@@ -231,9 +270,17 @@ export const Practice = () => {
             />
           ))}
         </div>
-        {showResult && (
-          <div className={`result-message ${isCorrect ? 'correct' : 'wrong'}`}>
-            {isCorrect ? t('practice.correct') : t('practice.wrong') + ' ' + currentQuestion.correctAnswer}
+        {showResult && !isCorrect && !autoAddToWrongSet && !isInWrongSet && (
+          <div className="result-container">
+            <Button
+              color="primary"
+              fill="solid"
+              size="middle"
+              onClick={handleAddToWrongSet}
+              className="add-to-wrong-set-button"
+            >
+              {t('practice.addToWrongSet')}
+            </Button>
           </div>
         )}
         </div>

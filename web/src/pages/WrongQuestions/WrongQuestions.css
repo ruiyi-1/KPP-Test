@@ -1,0 +1,258 @@
+.wrong-questions-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* NavBar 布局：确保左右两侧宽度一致 */
+.wrong-questions-page .adm-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrong-questions-page .adm-nav-bar .adm-nav-bar-left,
+.wrong-questions-page .adm-nav-bar .adm-nav-bar-right {
+  flex: 0 0 60px; /* 设置固定宽度，保持一致 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrong-questions-page .adm-nav-bar .adm-nav-bar-title {
+  flex: 1;
+  text-align: center;
+}
+
+.wrong-questions-content {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.empty-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: #999;
+  font-size: 16px;
+}
+
+.wrong-questions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.wrong-questions-count {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.wrong-questions-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.wrong-questions-list-card {
+  margin-top: 16px;
+}
+
+.wrong-questions-list-card .adm-card-body {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.wrong-questions-page .adm-list-default .adm-list-body {
+  border-top: none !important;
+}
+
+.wrong-questions-page .adm-list-default .adm-list-body::before,
+.wrong-questions-page .adm-list-default .adm-list-body::after {
+  display: none !important;
+}
+
+.wrong-question-item {
+  padding: 0 !important;
+  margin: 0 !important;
+  border-bottom: none !important;
+}
+
+.wrong-question-item::after {
+  display: none !important;
+}
+
+.wrong-questions-list-card .adm-list-item {
+  padding: 0 !important;
+  margin: 0 !important;
+  border-bottom: none !important;
+}
+
+.wrong-questions-list-card .adm-list-item::after {
+  display: none !important;
+}
+
+.question-number-badge {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1677ff;
+  color: white;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.wrong-question-preview {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.question-text-preview {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.wrong-question-index {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.answer-info-preview {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-top: 4px;
+}
+
+.answer-label {
+  color: #666;
+}
+
+.answer-value {
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.answer-value.wrong {
+  background-color: #fff1f0;
+  color: #ff4d4f;
+}
+
+.answer-value.correct {
+  background-color: #f6ffed;
+  color: #52c41a;
+}
+
+.answer-separator {
+  color: #999;
+  margin: 0 4px;
+}
+
+.wrong-question-info {
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.wrong-answer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-label {
+  font-size: 14px;
+  color: #666;
+  min-width: 80px;
+}
+
+.info-value {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.info-value.wrong {
+  background-color: #fff1f0;
+  color: #ff4d4f;
+}
+
+.info-value.correct {
+  background-color: #f6ffed;
+  color: #52c41a;
+}
+
+.remove-button {
+  width: 100%;
+}
+
+.options-container {
+  margin: 16px 0;
+}
+
+.nav-bar-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  cursor: pointer;
+  color: #1677ff;
+  transition: opacity 0.2s;
+  width: 100%;
+}
+
+.nav-bar-icon:active {
+  opacity: 0.6;
+}
+
+.delete-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.delete-icon:active {
+  opacity: 0.6;
+}

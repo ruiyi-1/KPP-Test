@@ -359,7 +359,7 @@ export const Exam = forwardRef<ExamHandle>((_, ref) => {
               <span>
                 {t('exam.questionNumber')} {currentIndex + 1} {t('exam.of')} {questions.length}
                 <span className={`answered-count ${hasSkippedQuestions ? 'warning' : ''}`}>
-                  · {t('exam.answered')}: {answeredCount} / {questions.length}
+                  · {t('exam.answered')} {answeredCount} / {questions.length}
                 </span>
               </span>
               <span className="time-remaining">
