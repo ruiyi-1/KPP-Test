@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
 import { Button, NavBar, Dialog, Input } from 'antd-mobile';
+import { FileOutline, GlobalOutline, EyeInvisibleOutline } from 'antd-mobile-icons';
 import { useTranslation } from 'react-i18next';
 import { QuestionCard } from '../../components/QuestionCard/QuestionCard';
 import { OptionItem } from '../../components/OptionItem/OptionItem';
-import { LanguageToggle } from '../../components/LanguageToggle/LanguageToggle';
 import { getAllQuestions } from '../../utils';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { logger } from '../../utils/logger';
@@ -136,7 +136,29 @@ export const Practice = () => {
 
   return (
     <div className="practice-page">
-      <NavBar back={null}>{t('practice.title')}</NavBar>
+      <NavBar 
+        back={null}
+        left={
+          <div className="nav-bar-icon" onClick={handleJumpDialogOpen}>
+            <FileOutline fontSize={20} />
+          </div>
+        }
+        right={
+          <div 
+            className="nav-bar-icon"
+            onClick={() => setShowTranslation(!showTranslation)}
+            title={showTranslation ? t('practice.hideTranslation') : t('practice.showTranslation')}
+          >
+            {showTranslation ? (
+              <EyeInvisibleOutline fontSize={20} />
+            ) : (
+              <GlobalOutline fontSize={20} />
+            )}
+          </div>
+        }
+      >
+        {t('practice.title')}
+      </NavBar>
       <div className="practice-content" ref={contentRef}>
         <div className="question-info">
           <span 
@@ -145,12 +167,6 @@ export const Practice = () => {
           >
             {t('practice.questionNumber')} {currentIndex + 1} {t('practice.of')} {questions.length}
           </span>
-          <LanguageToggle
-            showTranslation={showTranslation}
-            onToggle={() => {
-              setShowTranslation(!showTranslation);
-            }}
-          />
         </div>
         <Dialog
           visible={showJumpDialog}

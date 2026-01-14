@@ -16,11 +16,25 @@
 .question-info {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 8px;
   font-size: 14px;
   color: #666;
   gap: 4px;
+}
+
+.nav-bar-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  cursor: pointer;
+  color: #1677ff;
+  transition: opacity 0.2s;
+}
+
+.nav-bar-icon:active {
+  opacity: 0.6;
 }
 
 .question-number-link {
