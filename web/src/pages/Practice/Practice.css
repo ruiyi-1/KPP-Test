@@ -7,20 +7,27 @@
 
 .practice-content {
   flex: 1;
-  padding: 8px 16px;
+  padding: 16px;
   padding-bottom: 96px; /* 为底部按钮(约48px)和TabBar(48px)留出空间 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-.question-info {
+/* NavBar 布局：space-between */
+.practice-page .adm-nav-bar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-  font-size: 14px;
-  color: #666;
-  gap: 4px;
+}
+
+.practice-page .adm-nav-bar .adm-nav-bar-left,
+.practice-page .adm-nav-bar .adm-nav-bar-right {
+  flex: 0 0 auto;
+}
+
+.practice-page .adm-nav-bar .adm-nav-bar-title {
+  flex: 1;
+  text-align: center;
 }
 
 .nav-bar-icon {
@@ -35,6 +42,16 @@
 
 .nav-bar-icon:active {
   opacity: 0.6;
+}
+
+.question-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #666;
+  gap: 4px;
 }
 
 .question-number-link {
