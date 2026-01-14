@@ -1,0 +1,105 @@
+{
+  "app": {
+    "title": "KPP驾考练习",
+    "practice": "练习",
+    "exam": "模拟考试",
+    "settings": "设置"
+  },
+  "practice": {
+    "title": "练习",
+    "showTranslation": "显示翻译",
+    "hideTranslation": "隐藏翻译",
+    "next": "下一题",
+    "previous": "上一题",
+    "submit": "提交答案",
+    "questionNumber": "题目",
+    "of": "/",
+    "noQuestionsAvailable": "没有可用题目",
+    "correct": "✓ 正确！",
+    "wrong": "✗ 错误！正确答案：",
+    "jumpToQuestion": "跳转到题目",
+    "enterQuestionNumber": "请输入题号",
+    "questionNumberRange": "请输入题号 (1-{count})",
+    "cancel": "取消",
+    "jump": "跳转",
+    "questionNumberTooSmall": "题号不能小于 1",
+    "questionNumberTooLarge": "题号不能大于 {count}"
+  },
+  "exam": {
+    "title": "模拟考试",
+    "start": "开始考试",
+    "progress": "进度",
+    "submit": "提交考试",
+    "timeRemaining": "剩余时间",
+    "passed": "通过",
+    "failed": "未通过",
+    "score": "得分",
+    "correct": "正确",
+    "wrong": "错误",
+    "timeUp": "时间到",
+    "tabSwitchWarning": "检测到您切换了标签页",
+    "tabSwitchMessage": "您正在考试中，请选择：",
+    "pauseExam": "暂停考试",
+    "exitExam": "退出考试",
+    "continueExam": "继续考试",
+    "resumeExamMessage": "考试已暂停，请选择：",
+    "examPaused": "考试已暂停",
+    "totalQuestions": "题目总数",
+    "passingScore": "及格分数",
+    "duration": "考试时长",
+    "translationDisabled": "考试期间翻译已禁用",
+    "questionNumber": "题目",
+    "of": "/",
+    "previous": "上一题",
+    "next": "下一题",
+    "examResult": "考试结果",
+    "reviewWrongAnswers": "查看错题",
+    "yourAnswer": "您的答案",
+    "correctAnswer": "正确答案",
+    "notAnswered": "未作答",
+    "answered": "已作答",
+    "wrongAnswersList": "错题列表",
+    "reviewWrongAnswers": "查看错题",
+    "restart": "重新开始"
+  },
+  "settings": {
+    "title": "设置",
+    "interfaceLanguage": "语言",
+    "translation": "翻译设置",
+    "translationLanguage": "翻译语言",
+    "defaultShowTranslation": "启用翻译",
+    "examSettings": "考试设置",
+    "examQuestionCount": "考试题目数量",
+    "passingScore": "及格题目数量",
+    "examDuration": "考试时长",
+    "minutes": "分钟",
+    "about": "关于",
+    "version": "版本",
+    "github": "GitHub",
+    "githubAddress": "查看仓库",
+    "donate": "打赏",
+    "donateText": "支持项目"
+  },
+  "review": {
+    "title": "复习",
+    "allQuestions": "所有题目",
+    "showTranslation": "显示翻译",
+    "hideTranslation": "隐藏翻译",
+    "questionNumber": "题目",
+    "correctAnswer": "正确答案",
+    "notAvailable": "无"
+  },
+  "questions": {
+    "_comment": "翻译使用translationKey作为key，格式：questions.{translationKey}.question 和 questions.{translationKey}.options.{A/B/C}",
+    "_example": {
+      "q001": {
+        "question": "这是题目的中文翻译",
+        "options": {
+          "A": "选项A的中文翻译",
+          "B": "选项B的中文翻译",
+          "C": "选项C的中文翻译"
+        }
+      }
+    }
+  }
+}

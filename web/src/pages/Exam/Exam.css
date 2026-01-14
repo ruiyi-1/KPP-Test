@@ -1,0 +1,142 @@
+.exam-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.exam-page .adm-nav-bar {
+  flex-shrink: 0;
+}
+
+.exam-start {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.exam-info {
+  margin-bottom: 40px;
+}
+
+.exam-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.exam-info p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #666;
+}
+
+.exam-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.exam-content-scrollable {
+  flex: 1;
+  padding: 20px 16px 16px 16px;
+  overflow-y: auto;
+}
+
+.exam-progress {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.time-remaining {
+  font-weight: 600;
+  color: #1677ff;
+}
+
+.answered-count {
+  font-weight: 500;
+  color: #52c41a;
+  margin-left: 4px;
+}
+
+.answered-count.warning {
+  color: #fa8c16;
+}
+
+.exam-paused-banner {
+  background: #fff7e6;
+  border: 1px solid #ffd591;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #d46b08;
+  font-weight: 600;
+}
+
+.options-container {
+  margin: 16px 0;
+}
+
+.exam-navigation {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  background: #fff;
+  border-top: 1px solid #eee;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.exam-navigation button {
+  flex: 1;
+}
+
+.review-content {
+  flex: 1;
+  overflow-y: auto;
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+}
+
+.wrong-answer-item {
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+}
+
+.answer-info {
+  margin-top: 16px;
+  padding: 12px;
+  background: #fafafa;
+  border-radius: 4px;
+}
+
+.wrong-answer {
+  color: #ff4d4f;
+  font-weight: 500;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.correct-answer {
+  color: #52c41a;
+  font-weight: 500;
+  font-size: 14px;
+}

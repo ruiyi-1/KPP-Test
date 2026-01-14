@@ -1,0 +1,25 @@
+{
+  "id": "part-c-question-001",
+  "part": "C",
+  "question_number": 1,
+  "question_text": "Berapa lamakah tempoh sah laku Lesen Belajar Memandu (LDL)? How long is the Learners Driving Licence (LDL) valid?",
+  "question_images": [],
+  "options": [
+    {
+      "label": "A",
+      "text": "2 tahun 2 years",
+      "has_image": false,
+      "image": null
+    },
+    {
+      "label": "B",
+      "text": "3 tahun 3 years",
+      "has_image": false,
+      "image": null
+    }
+  ],
+  "correct_answer": "A",
+  "has_image_options": false,
+  "has_question_images": false,
+  "timestamp": "2026-01-14 00:28:05"
+}

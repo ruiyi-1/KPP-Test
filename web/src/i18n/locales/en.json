@@ -1,0 +1,105 @@
+{
+  "app": {
+    "title": "KPP Driving Test Practice",
+    "practice": "Practice",
+    "exam": "Mock Exam",
+    "settings": "Settings"
+  },
+  "practice": {
+    "title": "Practice",
+    "showTranslation": "Show Translation",
+    "hideTranslation": "Hide Translation",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit Answer",
+    "questionNumber": "Question",
+    "of": "of",
+    "noQuestionsAvailable": "No questions available",
+    "correct": "✓ Correct!",
+    "wrong": "✗ Wrong! Correct answer:",
+    "jumpToQuestion": "Jump to Question",
+    "enterQuestionNumber": "Enter question number",
+    "questionNumberRange": "Question number (1-{count})",
+    "cancel": "Cancel",
+    "jump": "Jump",
+    "questionNumberTooSmall": "Question number cannot be less than 1",
+    "questionNumberTooLarge": "Question number cannot be greater than {count}"
+  },
+  "exam": {
+    "title": "Mock Exam",
+    "start": "Start Exam",
+    "progress": "Progress",
+    "submit": "Submit Exam",
+    "timeRemaining": "Time Remaining",
+    "passed": "Passed",
+    "failed": "Failed",
+    "score": "Score",
+    "correct": "Correct",
+    "wrong": "Wrong",
+    "timeUp": "Time's Up",
+    "tabSwitchWarning": "Tab Switch Detected",
+    "tabSwitchMessage": "You are in an exam. Please choose:",
+    "pauseExam": "Pause Exam",
+    "exitExam": "Exit Exam",
+    "continueExam": "Continue Exam",
+    "resumeExamMessage": "Exam is paused. Please choose:",
+    "examPaused": "Exam Paused",
+    "totalQuestions": "Total Questions",
+    "passingScore": "Passing Score",
+    "duration": "Duration",
+    "translationDisabled": "Translation is disabled during exam",
+    "questionNumber": "Question",
+    "of": "of",
+    "previous": "Previous",
+    "next": "Next",
+    "examResult": "Exam Result",
+    "reviewWrongAnswers": "Review Wrong Answers",
+    "yourAnswer": "Your Answer",
+    "correctAnswer": "Correct Answer",
+    "notAnswered": "Not answered",
+    "answered": "Answered",
+    "wrongAnswersList": "Wrong Answers List",
+    "reviewWrongAnswers": "Review Wrong Answers",
+    "restart": "Restart"
+  },
+  "settings": {
+    "title": "Settings",
+    "interfaceLanguage": "Language",
+    "translation": "Translation",
+    "translationLanguage": "Translation Language",
+    "defaultShowTranslation": "Enable translation",
+    "examSettings": "Exam Settings",
+    "examQuestionCount": "Exam Question Count",
+    "passingScore": "Passing Score",
+    "examDuration": "Exam Duration",
+    "minutes": "minutes",
+    "about": "About",
+    "version": "Version",
+    "github": "GitHub",
+    "githubAddress": "View Repository",
+    "donate": "Donate",
+    "donateText": "Support Project"
+  },
+  "review": {
+    "title": "Review",
+    "allQuestions": "All Questions",
+    "showTranslation": "Show Translation",
+    "hideTranslation": "Hide Translation",
+    "questionNumber": "Question",
+    "correctAnswer": "Correct Answer",
+    "notAvailable": "N/A"
+  },
+  "questions": {
+    "_comment": "Translations use translationKey as key, format: questions.{translationKey}.question and questions.{translationKey}.options.{A/B/C}",
+    "_example": {
+      "q001": {
+        "question": "Translation of the question",
+        "options": {
+          "A": "Translation of option A",
+          "B": "Translation of option B",
+          "C": "Translation of option C"
+        }
+      }
+    }
+  }
+}

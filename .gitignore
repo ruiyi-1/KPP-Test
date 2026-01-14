@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# 截图和图片（可能很大，不提交到git）
+screenshots/
+images/
+*.png
+*.jpg
+*.jpeg
+
+# 进度文件（包含临时状态）
+scripts/progress.json
+
+# 数据文件（可能包含大量数据）
+data/questions.json
+data/translations/*.json
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 构建输出
+web/dist/
+web/build/
+web/.next/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.log
+/tmp/

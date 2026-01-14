@@ -1,0 +1,3604 @@
+{
+  "questions": {
+    "section-a-a-question-set-1-q1": {
+      "question": "为了防止该区域发生事故，可以采取哪些方法？",
+      "options": {
+        "A": "减速并移至右侧车道",
+        "B": "减速并打开远光灯",
+        "C": "减速车辆并使用低速档"
+      }
+    },
+    "section-a-a-question-set-1-q2": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "的士区",
+        "B": "停车场",
+        "C": "巴士站"
+      }
+    },
+    "section-a-a-question-set-1-q3": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "超过重量限制的车辆禁止进入",
+        "B": "超过高度限制的车辆禁止进入",
+        "C": "超过宽度限制的车辆禁止进入"
+      }
+    },
+    "section-a-a-question-set-1-q4": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方绕行",
+        "B": "右转弯标志",
+        "C": "左转弯标志"
+      }
+    },
+    "section-a-a-question-set-1-q5": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "按照箭头指示",
+        "B": "驼峰向前",
+        "C": "前方道路狭窄"
+      }
+    },
+    "section-a-a-question-set-1-q6": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方路滑",
+        "B": "攀爬车道",
+        "C": "双向交通分流"
+      }
+    },
+    "section-a-a-question-set-1-q7": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "这条道路允许摩托车通行",
+        "B": "禁止摩托车驶入该道路",
+        "C": "仅限摩托车停放"
+      }
+    },
+    "section-a-a-question-set-1-q8": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "加油站",
+        "B": "洗车",
+        "C": "休息室"
+      }
+    },
+    "section-a-a-question-set-1-q9": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方道路狭窄",
+        "B": "前面有窄桥",
+        "C": "前方右车道变窄"
+      }
+    },
+    "section-a-a-question-set-1-q10": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "小学生穿越区域",
+        "B": "盲人行人过路处",
+        "C": "长者人行横道"
+      }
+    },
+    "section-a-a-question-set-1-q11": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方施工",
+        "B": "夹紧区域",
+        "C": "拖曳区"
+      }
+    },
+    "section-a-a-question-set-1-q12": {
+      "question": "选择停车区的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-1-q13": {
+      "question": "选择双向路的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-1-q14": {
+      "question": "选择正确的路标“只有这些类型的车辆不允许在这条道路上行驶”",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-1-q15": {
+      "question": "选择攀爬车道的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-1-q16": {
+      "question": "选择正确的路标以获取距离信息",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-1-q17": {
+      "question": "选择正确的道路标志，禁止掉头",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-1-q18": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "减速并给右侧驶来的车辆让路",
+        "B": "减速并让行人",
+        "C": "减速并让行小型车辆"
+      }
+    },
+    "section-a-a-question-set-1-q19": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "山体滑坡地区，小心通过该地区",
+        "B": "露营区，谨慎前行",
+        "C": "事故区，谨慎前行"
+      }
+    },
+    "section-a-a-question-set-1-q20": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "盲人行人过路处",
+        "B": "人行横道",
+        "C": "残疾人人行横道"
+      }
+    },
+    "section-a-a-question-set-1-q21": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "残疾人过路",
+        "B": "盲人行人过路处",
+        "C": "为残疾人预留座位"
+      }
+    },
+    "section-a-a-question-set-1-q22": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "左转弯标志",
+        "B": "右转弯标志",
+        "C": "前方危险弯道"
+      }
+    },
+    "section-a-a-question-set-1-q23": {
+      "question": "为以下表述选择正确的路标：i) 减速车辆 ii) 换至低速档 iii) 前方危险弯道",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-1-q24": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "自行车不准停车",
+        "B": "该车道禁止自行车通行",
+        "C": "该车道仅允许自行车通行"
+      }
+    },
+    "section-a-a-question-set-1-q25": {
+      "question": "为以下陈述选择正确的路标： i) 尽早指出 ii) 观察后视镜 iii) 掉头",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-2-q1": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "兽医护理中心",
+        "B": "红新月会",
+        "C": "健康诊所"
+      }
+    },
+    "section-a-a-question-set-2-q2": {
+      "question": "选择“无需等待”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-2-q3": {
+      "question": "选择正确的路标“直行”或“仅向右”",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-2-q4": {
+      "question": "选择滑坡的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-2-q5": {
+      "question": "选择 T 字路口的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-2-q6": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "超过规定高度的车辆不得通行",
+        "B": "超过规定重量限制的车辆禁止通行",
+        "C": "超过指定宽度限制的车辆不得通行"
+      }
+    },
+    "section-a-a-question-set-2-q7": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "减速并给迎面驶来的车辆让路",
+        "B": "减速并让位于右车道的车辆",
+        "C": "不许进入"
+      }
+    },
+    "section-a-a-question-set-2-q8": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "减速，换至空档并继续行驶",
+        "B": "减速车辆，换至低速档并继续行驶",
+        "C": "减速，换至更高档位并继续行驶"
+      }
+    },
+    "section-a-a-question-set-2-q9": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "不要继续",
+        "B": "禁止左转",
+        "C": "请勿右转"
+      }
+    },
+    "section-a-a-question-set-2-q10": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "没有左车道",
+        "B": "靠右",
+        "C": "请勿在该区域超车"
+      }
+    },
+    "section-a-a-question-set-2-q11": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "路滑",
+        "B": "前路不平坦",
+        "C": "前面路肩软"
+      }
+    },
+    "section-a-a-question-set-2-q12": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "左道封闭",
+        "B": "中间车道已关闭",
+        "C": "右车道结束"
+      }
+    },
+    "section-a-a-question-set-2-q13": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "货车停车场",
+        "B": "称重站",
+        "C": "货车等候区"
+      }
+    },
+    "section-a-a-question-set-2-q14": {
+      "question": "为以下陈述选择正确的路标：i) 减速车辆 ii) 小心驾驶 iii) 随时准备停车",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-2-q15": {
+      "question": "驾驶员根据路标过马路时应该怎样做",
+      "options": {
+        "A": "减速、小心并直行",
+        "B": "减速、保持警惕并跟随其他车辆",
+        "C": "减速慢行，小心并遵循交通协管员的指示"
+      }
+    },
+    "section-a-a-question-set-2-q16": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "向前停车路标",
+        "B": "前路不平坦",
+        "C": "急转弯标志"
+      }
+    },
+    "section-a-a-question-set-2-q17": {
+      "question": "选择前往“死胡同”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-2-q18": {
+      "question": "选择前方十字路口的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-2-q19": {
+      "question": "选择“车辆超过高度限制不允许进入”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-2-q20": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "无喇叭",
+        "B": "给行人让路",
+        "C": "把车停在医院门口"
+      }
+    },
+    "section-a-a-question-set-2-q21": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "在白线前停止",
+        "B": "警告",
+        "C": "前方急转弯"
+      }
+    },
+    "section-a-a-question-set-2-q22": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "只有一种方式",
+        "B": "左侧车道已关闭，无法穿越",
+        "C": "右道封闭"
+      }
+    },
+    "section-a-a-question-set-2-q23": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "停在白线前",
+        "B": "过了白线就停下来",
+        "C": "停车让儿童过马路"
+      }
+    },
+    "section-a-a-question-set-2-q24": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "指示您是否需要左转",
+        "B": "不注明是否需要右转",
+        "C": "表明您是否要右转"
+      }
+    },
+    "section-a-a-question-set-2-q25": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方路滑",
+        "B": "软路肩",
+        "C": "请提前声明"
+      }
+    },
+    "section-a-a-question-set-3-q1": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方道路狭窄",
+        "B": "前方有岔路",
+        "C": "左侧狭窄的路口"
+      }
+    },
+    "section-a-a-question-set-3-q2": {
+      "question": "当司机看到这些路标时应该怎么做？",
+      "options": {
+        "A": "在适当的车道上行驶",
+        "B": "加速",
+        "C": "停车"
+      }
+    },
+    "section-a-a-question-set-3-q3": {
+      "question": "为以下陈述选择正确的路标： i) 规划路线 ii) 减速车辆 iii) 优先让右侧驶来的车辆",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-3-q4": {
+      "question": "选择“禁止车辆进入”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-3-q5": {
+      "question": "选择“禁止停车”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-3-q6": {
+      "question": "选择“限速结束”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-3-q7": {
+      "question": "哪里可以看到这个路标？",
+      "options": {
+        "A": "丘陵地区",
+        "B": "海滨",
+        "C": "城区"
+      }
+    },
+    "section-a-a-question-set-3-q8": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "此处800米范围内禁止车辆停放",
+        "B": "前面有公用电话",
+        "C": "电信建设遥遥领先"
+      }
+    },
+    "section-a-a-question-set-3-q9": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "减速慢行，谨慎驾驶，切勿超车",
+        "B": "减速车辆，小心驾驶，不要掉头",
+        "C": "减速车辆，小心驾驶并准备超车"
+      }
+    },
+    "section-a-a-question-set-3-q10": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方自动平交道口",
+        "B": "牛过境区",
+        "C": "前面有停车标志"
+      }
+    },
+    "section-a-a-question-set-3-q11": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "向左侧弯曲",
+        "B": "只有一种方式",
+        "C": "路线急剧偏离"
+      }
+    },
+    "section-a-a-question-set-3-q12": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方蜿蜒的道路",
+        "B": "向前冲",
+        "C": "请使用高速档"
+      }
+    },
+    "section-a-a-question-set-3-q13": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "这条路不禁止摩托车通行",
+        "B": "这里禁止停放摩托车",
+        "C": "这条路只允许摩托车通行"
+      }
+    },
+    "section-a-a-question-set-3-q14": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "[翻译失败] Junction to right corner",
+        "B": "向右弯曲",
+        "C": "左弯"
+      }
+    },
+    "section-a-a-question-set-3-q15": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "向右弯曲",
+        "B": "路口向右",
+        "C": "交汇处到左角"
+      }
+    },
+    "section-a-a-question-set-3-q16": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "停下来忘记后面的车辆",
+        "B": "像往常一样加速并继续",
+        "C": "减速行驶，在正确的车道上行驶并遵守交通灯信号"
+      }
+    },
+    "section-a-a-question-set-3-q17": {
+      "question": "选择“掉头”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-3-q18": {
+      "question": "为以下表述选择正确的路标： i) 车辆减速 ii) 在白线前停车 iii) 左右看看 iv) 如果没有其他车辆，则继续行驶",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-3-q19": {
+      "question": "选择“限速结束”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-3-q20": {
+      "question": "当处于这些区域中的任何一个区域时，驾驶员应该",
+      "options": {
+        "A": "提高车速",
+        "B": "放慢车辆速度",
+        "C": "打开危险警示灯"
+      }
+    },
+    "section-a-a-question-set-3-q21": {
+      "question": "您通常会在哪里看到这个路标？",
+      "options": {
+        "A": "施工区",
+        "B": "隧道",
+        "C": "住房面积"
+      }
+    },
+    "section-a-a-question-set-3-q22": {
+      "question": "为以下陈述选择正确的路标： i) 减速车辆 ii) 指示转弯 iii) 允许左转或右转",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-3-q23": {
+      "question": "根据该路标行驶时，驾驶员应该怎样做？",
+      "options": {
+        "A": "减速、换低档并靠右行驶",
+        "B": "减速行驶，小心驾驶，切勿超车",
+        "C": "鸣喇叭并继续您的路线"
+      }
+    },
+    "section-a-a-question-set-3-q24": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "停下来等待火车门打开",
+        "B": "放慢速度并继续",
+        "C": "如果没有火车穿过该区域，请减速并继续行驶"
+      }
+    },
+    "section-a-a-question-set-3-q25": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "显示区域信息",
+        "B": "显示路况信息",
+        "C": "显示方向信息"
+      }
+    },
+    "section-a-a-question-set-4-q1": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "只有一种方式",
+        "B": "車輛改道",
+        "C": "停止"
+      }
+    },
+    "section-a-a-question-set-4-q2": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方三岔路口",
+        "B": "前面是死胡同",
+        "C": "前方的十字路口"
+      }
+    },
+    "section-a-a-question-set-4-q3": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "重量超过3.5米的车辆禁止进入",
+        "B": "宽度超过3.5米的车辆禁止驶入",
+        "C": "高度超过3.5米的车辆禁止进入"
+      }
+    },
+    "section-a-a-question-set-4-q4": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "向右弯曲",
+        "B": "前方左弯",
+        "C": "前方左弯"
+      }
+    },
+    "section-a-a-question-set-4-q5": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方单向路口",
+        "B": "前方三岔路口",
+        "C": "前方有双向路口"
+      }
+    },
+    "section-a-a-question-set-4-q6": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "减速并给右侧驶来的车辆让路",
+        "B": "减速行驶，切勿超车，谨慎驾驶",
+        "C": "减速并给小型车辆让路"
+      }
+    },
+    "section-a-a-question-set-4-q7": {
+      "question": "驾驶员在接近有这些标志的道路时所需采取的行动是",
+      "options": {
+        "A": "加速并超车",
+        "B": "减速并使用高速档",
+        "C": "减速并使用低速档"
+      }
+    },
+    "section-a-a-question-set-4-q8": {
+      "question": "选择正确的路标换低档",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-4-q9": {
+      "question": "选择正确的路标减速并给右侧的车辆让路",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-4-q10": {
+      "question": "选择山体滑坡区域的正确路标，小心通过该区域",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-4-q11": {
+      "question": "为左车道上慢速行驶的车辆和右车道上超车的车辆选择正确的路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-4-q12": {
+      "question": "选择该路标的正确含义：",
+      "options": {
+        "A": "车门关闭时减速、停车并继续行驶",
+        "B": "车门打开时减速、停车并继续行驶",
+        "C": "车门打开时加速车辆、停止并继续行驶"
+      }
+    },
+    "section-a-a-question-set-4-q13": {
+      "question": "选择“人行横道”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-4-q14": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "山体滑坡道路标志",
+        "B": "牛过境区路标",
+        "C": "道路不平坦"
+      }
+    },
+    "section-a-a-question-set-4-q15": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "单程交通",
+        "B": "双向交通",
+        "C": "三路交通"
+      }
+    },
+    "section-a-a-question-set-4-q16": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "道路蜿蜒，减速行驶，切勿超车",
+        "B": "道路蜿蜒，减速超车",
+        "C": "蜿蜒道路，加速车辆超车"
+      }
+    },
+    "section-a-a-question-set-4-q17": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方高速公路分隔线",
+        "B": "换至更高档位",
+        "C": "路边的建筑材料"
+      }
+    },
+    "section-a-a-question-set-4-q18": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "道路工程正在进行中",
+        "B": "禁止车辆驶入",
+        "C": "没有停止"
+      }
+    },
+    "section-a-a-question-set-4-q19": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "指示转弯",
+        "B": "没有停止",
+        "C": "不要让前方车辆优先"
+      }
+    },
+    "section-a-a-question-set-4-q20": {
+      "question": "选择正确的路标，优先考虑来自右侧的车辆",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-4-q21": {
+      "question": "选择正确的路标以指示转弯",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-4-q22": {
+      "question": "选择“公交车站”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-4-q23": {
+      "question": "选择正确的路标“方向信息和前往高速公路的信息”",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-4-q24": {
+      "question": "当你看到这个路标时你应该做什么？",
+      "options": {
+        "A": "提高车速",
+        "B": "换至低档",
+        "C": "切换到更高的档位"
+      }
+    },
+    "section-a-a-question-set-4-q25": {
+      "question": "到关丹的距离是多少？",
+      "options": {
+        "A": "69公里",
+        "B": "119 公里",
+        "C": "193 公里"
+      }
+    },
+    "section-a-a-question-set-5-q1": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "该区域仅允许此类车辆通行",
+        "B": "只有这些类型的车辆不允许进入该区域",
+        "C": "只有这些类型的车辆可以在这条道路上行驶"
+      }
+    },
+    "section-a-a-question-set-5-q2": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方道路变窄",
+        "B": "2 路高速公路分隔线前方结束",
+        "C": "前方右路口"
+      }
+    },
+    "section-a-a-question-set-5-q3": {
+      "question": "当你看到这个路标时你应该做什么？",
+      "options": {
+        "A": "允许调头",
+        "B": "使用低速档",
+        "C": "使用高速档"
+      }
+    },
+    "section-a-a-question-set-5-q4": {
+      "question": "当司机看到这个路标时应该做什么？",
+      "options": {
+        "A": "允许调头",
+        "B": "只向左转",
+        "C": "仅右转"
+      }
+    },
+    "section-a-a-question-set-5-q5": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方高速公路分隔线",
+        "B": "2 路高速公路分隔线末端",
+        "C": "前方道路变窄"
+      }
+    },
+    "section-a-a-question-set-5-q6": {
+      "question": "骑摩托车时，您会因违法而收到传票。您违反了以下哪些路标？",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-5-q7": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "所有车辆均可掉头",
+        "B": "所有车辆不得掉头",
+        "C": "所有车辆均可左转"
+      }
+    },
+    "section-a-a-question-set-5-q8": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前方有红绿灯",
+        "B": "前方路口",
+        "C": "前方的障碍"
+      }
+    },
+    "section-a-a-question-set-5-q9": {
+      "question": "选择“前方狭窄的道路”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-5-q10": {
+      "question": "选择“左右交错路口”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-5-q11": {
+      "question": "当你看到这个路标时你应该做什么？",
+      "options": {
+        "A": "保持距离",
+        "B": "让路给右边的车辆",
+        "C": "超越其他车辆"
+      }
+    },
+    "section-a-a-question-set-5-q12": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "前面有红绿灯",
+        "B": "前面有警察",
+        "C": "遵守指定的速度限制"
+      }
+    },
+    "section-a-a-question-set-5-q13": {
+      "question": "当您看到以下路标时，您不应该做什么？",
+      "options": {
+        "A": "超过",
+        "B": "换至较低档位",
+        "C": "禁止掉头"
+      }
+    },
+    "section-a-a-question-set-5-q14": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "右车道湿滑",
+        "B": "右侧车道已关闭，无法穿越",
+        "C": "左道封闭"
+      }
+    },
+    "section-a-a-question-set-5-q15": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "当有迎面而来的车辆时只需转弯",
+        "B": "提高车速",
+        "C": "按照箭头指示"
+      }
+    },
+    "section-a-a-question-set-5-q16": {
+      "question": "当你看到这个路标时你应该做什么？",
+      "options": {
+        "A": "如果有盲人过马路就按喇叭",
+        "B": "如果有盲人过马路，请减速并停车",
+        "C": "如果有盲人过马路，请向前行驶"
+      }
+    },
+    "section-a-a-question-set-5-q17": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "国家动物园前",
+        "B": "野生动物过马路",
+        "C": "牛过马路"
+      }
+    },
+    "section-a-a-question-set-5-q18": {
+      "question": "选择“环岛”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-5-q19": {
+      "question": "选择“直行或仅向右转”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-5-q20": {
+      "question": "选择“道路维修”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-5-q21": {
+      "question": "选择“遵守指定速度限制”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-5-q22": {
+      "question": "选择正确的路标“让路给右侧迎面驶来的车辆”",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-5-q23": {
+      "question": "一名司机因鸣喇叭而在医院内收到传票。司机违反了以下哪些路标？",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-5-q24": {
+      "question": "选择“车门打开时减速车辆，停止并继续行驶”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-5-q25": {
+      "question": "当你看到这个路标时你应该做什么？",
+      "options": {
+        "A": "鸣喇叭并减速",
+        "B": "关闭车辆并让路给儿童过路处",
+        "C": "当您收到交通协管员的出发信号时，停车并继续您的旅程"
+      }
+    },
+    "section-a-a-question-set-6-q1": {
+      "question": "该区域允许停车的距离是多少？",
+      "options": {
+        "A": "5米",
+        "B": "3米",
+        "C": "4米"
+      }
+    },
+    "section-a-a-question-set-6-q2": {
+      "question": "哪里可以看到这个路标？",
+      "options": {
+        "A": "城镇地区",
+        "B": "学校",
+        "C": "医院区"
+      }
+    },
+    "section-a-a-question-set-6-q3": {
+      "question": "在哪里可以看到这些临时路标？",
+      "options": {
+        "A": "城镇地区",
+        "B": "住房面积",
+        "C": "道路维修区"
+      }
+    },
+    "section-a-a-question-set-6-q4": {
+      "question": "选择该路标的正确含义；",
+      "options": {
+        "A": "人行横道",
+        "B": "自动平交道口",
+        "C": "火车道口区域"
+      }
+    },
+    "section-a-a-question-set-6-q5": {
+      "question": "选择正确的路标“减速并给迎面驶来的车辆让路”",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-6-q6": {
+      "question": "选择“T 字路口”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-6-q7": {
+      "question": "选择“左侧狭窄路口”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-6-q8": {
+      "question": "选择“请勿超过速度限制”的正确路标",
+      "options": {
+        "A": "一个",
+        "B": "乙",
+        "C": "C"
+      }
+    },
+    "section-a-a-question-set-6-q9": {
+      "question": "由于道路施工，X 车道禁止通行。选择描述此图的正确含义：",
+      "options": {
+        "A": "来自 X 车道的车辆必须调头",
+        "B": "Y 车道上的车辆必须与 X 车道上的车辆交替移动到 X 车道",
+        "C": "来自 X 车道的车辆需要与来自该车道的车辆交替移入 Y 车道"
+      }
+    },
+    "section-a-a-question-set-6-q10": {
+      "question": "选择该图的正确含义",
+      "options": {
+        "A": "B 车必须优先让 A 车",
+        "B": "A 车必须优先于 B 车",
+        "C": "车辆 A 必须加速"
+      }
+    },
+    "section-a-a-question-set-6-q11": {
+      "question": "选择该图的正确含义",
+      "options": {
+        "A": "A车道的车辆必须优先于B车道的车辆",
+        "B": "B车道的车辆需要优先于A车道的车辆",
+        "C": "A 车道上的车辆必须超越 B 车道上的车辆"
+      }
+    },
+    "section-a-a-question-set-6-q12": {
+      "question": "选择该图的正确含义",
+      "options": {
+        "A": "车辆 A 在正确的车道上",
+        "B": "车辆 C 在正确的车道上",
+        "C": "车辆 B 在正确的车道上"
+      }
+    },
+    "section-a-a-question-set-6-q13": {
+      "question": "选择该图的正确含义",
+      "options": {
+        "A": "车辆 C 具有道路优先权越过车辆 A",
+        "B": "车辆 B 比车辆 A 具有道路优先权",
+        "C": "车辆 B 比车辆 C 具有道路优先权"
+      }
+    },
+    "section-a-a-question-set-6-q14": {
+      "question": "选择该图的正确含义",
+      "options": {
+        "A": "车辆 A 的道路优先权高于车辆 B",
+        "B": "车辆 C 具有道路优先权越过车辆 B",
+        "C": "车辆 C 比车辆 A 具有道路优先权"
+      }
+    },
+    "section-a-a-question-set-6-q15": {
+      "question": "选择该图的正确含义",
+      "options": {
+        "A": "车辆C需要优先让车辆B",
+        "B": "B 车必须优先于 C 车",
+        "C": "C 车必须优先让 A 车"
+      }
+    },
+    "section-a-a-question-set-6-q16": {
+      "question": "选择该图的正确含义",
+      "options": {
+        "A": "车辆 C 比车辆 A 具有道路优先权",
+        "B": "车辆 A 具有道路优先权越过车辆 B",
+        "C": "车辆 B 比车辆 A 具有道路优先权"
+      }
+    },
+    "section-a-a-question-set-6-q17": {
+      "question": "驾驶员 A 在决定在路口右转之前应该做什么？",
+      "options": {
+        "A": "向右打灯，给迎面而来的车辆让路并右转",
+        "B": "向左打灯，给迎面驶来的车辆让路并左转",
+        "C": "不需要指示转弯"
+      }
+    },
+    "section-a-a-question-set-6-q18": {
+      "question": "根据下图，驾驶员AB在右转之前应该做什么？",
+      "options": {
+        "A": "允许车辆空调继续运行",
+        "B": "允许车辆AD通过",
+        "C": "允许车辆AC和AD交叉"
+      }
+    },
+    "section-a-a-question-set-6-q19": {
+      "question": "当您到达交叉路口 X 时，您：",
+      "options": {
+        "A": "不需要停车或指示",
+        "B": "不需要停车，因为主路上没有车辆",
+        "C": "退出前必须停车、指示并确保主干道上没有车辆"
+      }
+    },
+    "section-a-a-question-set-6-q20": {
+      "question": "当B车指示进入X路口时，A车已到达X路口。A车驾驶员会采取什么行动？",
+      "options": {
+        "A": "如果除A车外没有其他车辆，B车驾驶员可以继续行驶",
+        "B": "如果除 B 车外没有其他车辆，X 车的驾驶员可以继续行驶",
+        "C": "A车驾驶员必须停车等待B车驾驶员进入路口"
+      }
+    },
+    "section-a-a-question-set-6-q21": {
+      "question": "选择图表的不正确含义",
+      "options": {
+        "A": "车辆 C 必须让车辆 B 优先通行",
+        "B": "车辆 B 需要让车辆 C 优先通行",
+        "C": "车辆 A 必须让车辆 C 优先通行"
+      }
+    },
+    "section-a-a-question-set-6-q22": {
+      "question": "选择该图的正确含义",
+      "options": {
+        "A": "A车优先先转弯",
+        "B": "B车优先转弯",
+        "C": "A、B车可以一起转弯"
+      }
+    },
+    "section-a-a-question-set-6-q23": {
+      "question": "根据下图选择正确的优先级顺序",
+      "options": {
+        "A": "车辆C -> 车辆B -> 车辆A",
+        "B": "车辆A -> 车辆C -> 车辆B",
+        "C": "车辆 B -> 车辆 A -> 车辆 C"
+      }
+    },
+    "section-a-a-question-set-6-q24": {
+      "question": "当您驾驶车辆 C 时，您可以：",
+      "options": {
+        "A": "C 车通过后从路口驶出",
+        "B": "B车通过后从路口驶出",
+        "C": "A车转弯后从路口驶出"
+      }
+    },
+    "section-b-b-question-set-1-q1": {
+      "question": "安全驾驶理念下的识别意图是什么？",
+      "options": {
+        "A": "识别跟随车辆的规则",
+        "B": "确定道路上的速度限制",
+        "C": "确定可能发生事故的条件"
+      }
+    },
+    "section-b-b-question-set-1-q2": {
+      "question": "在路口停车时，您应该：",
+      "options": {
+        "A": "换至空挡",
+        "B": "切换到最高档",
+        "C": "换至倒档"
+      }
+    },
+    "section-b-b-question-set-1-q3": {
+      "question": "在三车道高速公路上行驶时，以下哪项陈述是正确的？",
+      "options": {
+        "A": "左车道为慢速行驶，中车道为快车行驶，右车道为超车",
+        "B": "右车道为慢速行驶，左车道为快车行驶，中间车道为超车",
+        "C": "中间车道为慢速行驶，右侧车道为快速行驶，左侧超车车道"
+      }
+    },
+    "section-b-b-question-set-1-q4": {
+      "question": "倒车时，如果驾驶员满足以下条件，则可以避免事故：",
+      "options": {
+        "A": "进入车辆​​前评估情况，倒车前检查后视镜和侧视镜。",
+        "B": "上车前不辨认情况，倒车前不看后视镜和侧视镜",
+        "C": "上车前认清情况，倒车前只看后视镜"
+      }
+    },
+    "section-b-b-question-set-1-q5": {
+      "question": "当绿色交通灯变成黄色时你应该做什么？",
+      "options": {
+        "A": "继续行驶并越过停车线",
+        "B": "如果车辆未越过停车线，请停车",
+        "C": "立即将车辆停在路中央"
+      }
+    },
+    "section-b-b-question-set-1-q6": {
+      "question": "实现安全驾驶的驾驶员应做到以下几点：",
+      "options": {
+        "A": "立即开始旅程",
+        "B": "不断改变旅行路线",
+        "C": "出发前计划好行程"
+      }
+    },
+    "section-b-b-question-set-1-q7": {
+      "question": "私人货车在高速公路上的最高速度限制是多少？",
+      "options": {
+        "A": "110公里/小时",
+        "B": "80公里/小时",
+        "C": "150公里/小时"
+      }
+    },
+    "section-b-b-question-set-1-q8": {
+      "question": "大雨天开车该怎么办？",
+      "options": {
+        "A": "鲁莽驾驶",
+        "B": "打开你的头灯",
+        "C": "加速"
+      }
+    },
+    "section-b-b-question-set-1-q9": {
+      "question": "在开始旅程之前，您应该采取哪些适当的行动来避免故障？",
+      "options": {
+        "A": "确保只有一半汽油",
+        "B": "确保您的车头灯出现故障",
+        "C": "确保您的车辆状况良好"
+      }
+    },
+    "section-b-b-question-set-1-q10": {
+      "question": "雨天发生的交通事故大多是由以下原因造成的：",
+      "options": {
+        "A": "转向控制、轮胎和制动器无法正常工作",
+        "B": "转向控制、雨刮器、车头灯",
+        "C": "转向控制和车头灯"
+      }
+    },
+    "section-b-b-question-set-1-q11": {
+      "question": "根据安全驾驶理念，您应该怎样做才能避免发生事故？",
+      "options": {
+        "A": "识别、分析、做出决策并采取行动",
+        "B": "观察、检查但不采取任何行动",
+        "C": "观察、检查并做出相反的决定"
+      }
+    },
+    "section-b-b-question-set-1-q12": {
+      "question": "应该采取什么行动来避免盲点？",
+      "options": {
+        "A": "移动前稍微向右或向左转动",
+        "B": "移动前只看后视镜",
+        "C": "无指示器移动"
+      }
+    },
+    "section-b-b-question-set-1-q13": {
+      "question": "根据 1987 年《道路运输法》，合格驾驶执照 (CDL) 持有者驾驶时允许的 100 毫升血液中的最高酒精含量是多少？",
+      "options": {
+        "A": "70毫克",
+        "B": "90毫克",
+        "C": "120毫克"
+      }
+    },
+    "section-b-b-question-set-1-q14": {
+      "question": "为了避免与前方车辆发生碰撞，应用以下哪条规则？",
+      "options": {
+        "A": "2秒规则",
+        "B": "4秒规则",
+        "C": "3秒规则"
+      }
+    },
+    "section-b-b-question-set-1-q15": {
+      "question": "试用驾驶执照 (PDL) 被吊销的人员在以下期限内不得驾驶、持有或申请驾驶执照，包括学习驾驶执照 (LDL)；",
+      "options": {
+        "A": "6个月",
+        "B": "3个月",
+        "C": "12个月"
+      }
+    },
+    "section-b-b-question-set-1-q16": {
+      "question": "根据下列陈述，选择可能发生的碰撞类型。 i) 前门司机没有看后视镜 ii) 前方司机没有在适当的时间内发出信号 iii) 后面的司机跟得太近",
+      "options": {
+        "A": "与后面车辆相撞",
+        "B": "与左侧车辆相撞",
+        "C": "与前方车辆发生碰撞"
+      }
+    },
+    "section-b-b-question-set-1-q17": {
+      "question": "夜间尾随另一辆车时，您应该",
+      "options": {
+        "A": "尾部靠近车辆并打开远光灯",
+        "B": "尾部保持正确距离，无需灯光",
+        "C": "保持正确的距离并降低灯光"
+      }
+    },
+    "section-b-b-question-set-1-q18": {
+      "question": "应该采取什么行动来避免盲点？",
+      "options": {
+        "A": "高速移动",
+        "B": "移动前使用指示器",
+        "C": "不使用指示器向左或向右移动"
+      }
+    },
+    "section-b-b-question-set-1-q19": {
+      "question": "握方向盘的正确方法是什么？",
+      "options": {
+        "A": "左右手分别在时钟位置 10.00 和 2.00 处握住方向盘",
+        "B": "左右手分别在时钟位置 7.00 和 5.00 处握住方向盘",
+        "C": "左右手分别在时钟位置 12.00 和 6.00 处握住方向盘"
+      }
+    },
+    "section-b-b-question-set-1-q20": {
+      "question": "如何安全停车？",
+      "options": {
+        "A": "看后视镜，示意并将车辆停在路中间",
+        "B": "看后视镜，示意车辆停在道路左侧",
+        "C": "看后视镜，指示车辆并停在道路右侧"
+      }
+    },
+    "section-b-b-question-set-1-q21": {
+      "question": "下坡行驶时应该做什么？",
+      "options": {
+        "A": "使用最高档位",
+        "B": "使用最低档位",
+        "C": "使用空挡"
+      }
+    },
+    "section-b-b-question-set-1-q22": {
+      "question": "按顺序列出为避免事故应采取的重要步骤。 i) 行动 ii) 分析 iii) 识别 iv) 做出决定",
+      "options": {
+        "A": "iii), ii), i), iv)",
+        "B": "iii), ii), iv), i)",
+        "C": "ii)、iii)、iv)、i)"
+      }
+    },
+    "section-b-b-question-set-1-q23": {
+      "question": "如果您的车辆突然起火，该怎么办？",
+      "options": {
+        "A": "停下车，关掉收音机，然后跑出车外",
+        "B": "停下车，关掉收音机，然后在车里大喊",
+        "C": "停下你的车辆，关闭发动机并拯救乘客"
+      }
+    },
+    "section-b-b-question-set-1-q24": {
+      "question": "接近人行横道时应该做什么？",
+      "options": {
+        "A": "继续您的旅程，并在人行横道后立即拉紧紧急制动",
+        "B": "提高车速并忽略人行横道",
+        "C": "放慢车速，以便在必要时有足够的时间停车"
+      }
+    },
+    "section-b-b-question-set-1-q25": {
+      "question": "下坡行驶时如果刹车失灵该怎么办？",
+      "options": {
+        "A": "换至空档，使用手刹，然后关闭发动机",
+        "B": "换至低速档，使用手刹，然后关闭发动机",
+        "C": "换至最高档，使用手刹，然后关闭发动机"
+      }
+    },
+    "section-b-b-question-set-2-q1": {
+      "question": "跟随另一辆车时应应用哪种距离规则？",
+      "options": {
+        "A": "2秒、4秒和12秒规则",
+        "B": "2秒、12秒和4秒规则",
+        "C": "12秒、4秒和2秒规则"
+      }
+    },
+    "section-b-b-question-set-2-q2": {
+      "question": "作为一名安全驾驶者，如果您想通过吉隆坡前往南方，却发现交通拥堵，尤其是在高峰时段，您该怎么办？",
+      "options": {
+        "A": "必须超越其他车辆并保持速度",
+        "B": "必须规划行程，避开高峰时段或使用紧急路线",
+        "C": "规划行程避开高峰时段或选择替代路线"
+      }
+    },
+    "section-b-b-question-set-2-q3": {
+      "question": "一项研究表明，与清醒司机相比，醉酒司机发生交通事故的概率是多少？",
+      "options": {
+        "A": "30次",
+        "B": "20次",
+        "C": "25次"
+      }
+    },
+    "section-b-b-question-set-2-q4": {
+      "question": "当前方交通灯由红变绿时你该怎么办？",
+      "options": {
+        "A": "如果安全的话继续",
+        "B": "立即停车",
+        "C": "放慢车辆速度"
+      }
+    },
+    "section-b-b-question-set-2-q5": {
+      "question": "下列哪项表述反映了正确的驾驶态度？",
+      "options": {
+        "A": "失去礼貌",
+        "B": "不存在交通违法行为",
+        "C": "避免交通事故"
+      }
+    },
+    "section-b-b-question-set-2-q6": {
+      "question": "当您的车辆被其他车辆超越时，您不应该做什么？",
+      "options": {
+        "A": "放慢车辆速度",
+        "B": "提高车辆的速度",
+        "C": "给其他车辆让路"
+      }
+    },
+    "section-b-b-question-set-2-q7": {
+      "question": "在人迹罕至的道路上行驶时应该做什么？",
+      "options": {
+        "A": "提高速度并超过车辆的速度限制",
+        "B": "超过车辆速度限制并小心驾驶",
+        "C": "降低车速并小心驾驶"
+      }
+    },
+    "section-b-b-question-set-2-q8": {
+      "question": "交通事故发生的原因之一是车辆因素。为了避免发生事故，你应该做什么？",
+      "options": {
+        "A": "确保您的车辆处于良好的工作状态",
+        "B": "确保有足够的汽油",
+        "C": "确保雨刮器正常工作"
+      }
+    },
+    "section-b-b-question-set-2-q9": {
+      "question": "关注其他流量用户意味着：",
+      "options": {
+        "A": "司机不需要小心谨慎",
+        "B": "驾驶员在特定情况下必须小心谨慎",
+        "C": "驾驶员在任何情况下都必须小心"
+      }
+    },
+    "section-b-b-question-set-2-q10": {
+      "question": "当接近红绿灯时你应该做什么？",
+      "options": {
+        "A": "遵守交通灯信号",
+        "B": "提高车速",
+        "C": "立即停车"
+      }
+    },
+    "section-b-b-question-set-2-q11": {
+      "question": "迎面驶来的车辆在夜间行驶时使用远光灯。你应该",
+      "options": {
+        "A": "打开远光灯一次，提醒车辆驾驶员调低灯光",
+        "B": "沿途打开远光灯，提醒车辆驾驶员调低灯光",
+        "C": "打开远光灯并连续大声鸣喇叭，提醒车辆驾驶员调低灯光"
+      }
+    },
+    "section-b-b-question-set-2-q12": {
+      "question": "开车时看到一群孩子在路边玩耍，你该怎么办？",
+      "options": {
+        "A": "提高车辆的速度",
+        "B": "停下车和他们一起玩",
+        "C": "减速车辆，必要时准备刹车和停车"
+      }
+    },
+    "section-b-b-question-set-2-q13": {
+      "question": "驾驶时应该怎样做才能避免与迎面驶来的车辆发生正面碰撞？",
+      "options": {
+        "A": "提高速度",
+        "B": "降低速度",
+        "C": "向路中间移动"
+      }
+    },
+    "section-b-b-question-set-2-q14": {
+      "question": "开车前有哪些适当的动作？",
+      "options": {
+        "A": "调整座椅和后视镜",
+        "B": "调整座椅并系好安全带",
+        "C": "调整座椅、后视镜、侧视镜并系好安全带"
+      }
+    },
+    "section-b-b-question-set-2-q15": {
+      "question": "道路转弯处的路标表明驾驶员应该",
+      "options": {
+        "A": "减速车辆并小心驾驶",
+        "B": "开得更快",
+        "C": "右转"
+      }
+    },
+    "section-b-b-question-set-2-q16": {
+      "question": "开车时，对面来车突然失控冲向你，你该怎么办？",
+      "options": {
+        "A": "将车辆停在道路左侧",
+        "B": "将车辆停在道路右侧",
+        "C": "将车辆停在路中间"
+      }
+    },
+    "section-b-b-question-set-2-q17": {
+      "question": "实施驾驶员教育课程（DEC）的目的是",
+      "options": {
+        "A": "培养知识丰富、技术精湛、安全快速的驾驶员",
+        "B": "培养知识丰富、技术精湛、安全高效的驾驶员",
+        "C": "培养知识丰富、技术熟练、安全且缓慢的驾驶员"
+      }
+    },
+    "section-b-b-question-set-2-q18": {
+      "question": "当接近十字路口时你应该做什么？",
+      "options": {
+        "A": "提高速度，在正确的车道上行驶，并在白线前停车",
+        "B": "降低速度，在正确的车道上行驶，并在白线后停车",
+        "C": "降低速度，在正确的车道上行驶并在白线前停车"
+      }
+    },
+    "section-b-b-question-set-2-q19": {
+      "question": "安全驾驶意味着",
+      "options": {
+        "A": "一种可以预防交通事故的驾驶方式",
+        "B": "一种可以避免交通拥堵情况的驾驶方式",
+        "C": "一种可以防止汽车走错车道的驾驶方式"
+      }
+    },
+    "section-b-b-question-set-2-q20": {
+      "question": "100毫升尿液中允许的最大酒精含量是多少？",
+      "options": {
+        "A": "105毫克酒精",
+        "B": "107 毫克酒精",
+        "C": "110毫克酒精"
+      }
+    },
+    "section-b-b-question-set-2-q21": {
+      "question": "驾驶过程中总共进行了多少次操纵或移动？",
+      "options": {
+        "A": "六",
+        "B": "八",
+        "C": "七"
+      }
+    },
+    "section-b-b-question-set-2-q22": {
+      "question": "如果您在驾驶过程中感到疲劳，您应该",
+      "options": {
+        "A": "提高车辆的速度",
+        "B": "像往常一样继续你的旅程",
+        "C": "停车休息"
+      }
+    },
+    "section-b-b-question-set-2-q23": {
+      "question": "哪些地方禁止鸣喇叭？",
+      "options": {
+        "A": "医院",
+        "B": "巴士站",
+        "C": "加油站"
+      }
+    },
+    "section-b-b-question-set-2-q24": {
+      "question": "如何避免因路况造成的事故？",
+      "options": {
+        "A": "忽略路况",
+        "B": "根据路况调整车速",
+        "C": "提高你的速度"
+      }
+    },
+    "section-b-b-question-set-2-q25": {
+      "question": "在湿滑路面上行驶时应该怎么做？",
+      "options": {
+        "A": "缓慢行驶，以便轻松控制您的车辆",
+        "B": "开得更快，以便轻松控制您的车辆",
+        "C": "使用远光灯驾驶，轻松控制您的车辆"
+      }
+    },
+    "section-b-b-question-set-3-q1": {
+      "question": "在改变车辆位置或方向之前进行指示的最短时间是",
+      "options": {
+        "A": "1秒",
+        "B": "3秒",
+        "C": "2秒"
+      }
+    },
+    "section-b-b-question-set-3-q2": {
+      "question": "开车时看到路中间有牲畜怎么办？",
+      "options": {
+        "A": "减速行驶，不要鸣喇叭，继续行驶",
+        "B": "放慢车速，连续鸣喇叭，准备停车",
+        "C": "减速车辆，不要鸣喇叭，准备停车"
+      }
+    },
+    "section-b-b-question-set-3-q3": {
+      "question": "选择正确的超车方式",
+      "options": {
+        "A": "练习 12 秒规则",
+        "B": "练习2秒规则",
+        "C": "练习 4 秒规则"
+      }
+    },
+    "section-b-b-question-set-3-q4": {
+      "question": "开车时发现自己没有系安全带怎么办？",
+      "options": {
+        "A": "停在路中间并系好安全带",
+        "B": "停在道路右侧并系好安全带",
+        "C": "停在道路左侧并系好安全带"
+      }
+    },
+    "section-b-b-question-set-3-q5": {
+      "question": "应用哪条规则来避免与前方车辆发生碰撞？",
+      "options": {
+        "A": "2秒规则",
+        "B": "3秒规则",
+        "C": "4秒规则"
+      }
+    },
+    "section-b-b-question-set-3-q6": {
+      "question": "超车时，汽车司机与前方车辆相撞。驾驶员没有遵守哪条距离规则？",
+      "options": {
+        "A": "2秒规则",
+        "B": "12秒规则",
+        "C": "4秒规则"
+      }
+    },
+    "section-b-b-question-set-3-q7": {
+      "question": "驾驶时提高车速之前应该考虑什么？",
+      "options": {
+        "A": "道路、交通、天气和车辆状况以及驾驶技能",
+        "B": "道路、交通、天气和车辆状况",
+        "C": "道路、交通、天气和其他车辆状况"
+      }
+    },
+    "section-b-b-question-set-3-q8": {
+      "question": "当交通灯变绿并且看到行人过马路时，你应该怎么做？",
+      "options": {
+        "A": "对行人按喇叭，示意不要过马路",
+        "B": "等待并优先让行人",
+        "C": "继续移动您的车辆并鸣喇叭"
+      }
+    },
+    "section-b-b-question-set-3-q9": {
+      "question": "您应该怎么做才能开始以正确的方式移动您的车辆？",
+      "options": {
+        "A": "使用第二档",
+        "B": "使用高速档",
+        "C": "使用第一档"
+      }
+    },
+    "section-b-b-question-set-3-q10": {
+      "question": "下坡行驶时减慢车辆速度的最佳方法是什么",
+      "options": {
+        "A": "换至倒档并使用脚制动器",
+        "B": "换至低速档并使用脚制动器",
+        "C": "换至最高档并使用手刹"
+      }
+    },
+    "section-b-b-question-set-3-q11": {
+      "question": "夜间跟车时应采取哪些安全预防措施？",
+      "options": {
+        "A": "练习安全距离规则并打开弱光灯",
+        "B": "练习安全距离规则并打开远光灯",
+        "C": "练习安全距离规则并随手关灯"
+      }
+    },
+    "section-b-b-question-set-3-q12": {
+      "question": "哪些行为属于危险驾驶，容易引发交通事故？",
+      "options": {
+        "A": "不加考虑地鲁莽驾驶",
+        "B": "谨慎驾驶并深思熟虑",
+        "C": "缓慢行驶并遵守规则"
+      }
+    },
+    "section-b-b-question-set-3-q13": {
+      "question": "哪些因素可能导致旅程结束时发生事故？ i) 疲劳和困倦 ii) 光线和天气的影响 iii) 车辆机械故障",
+      "options": {
+        "A": "一和二",
+        "B": "一、二、三",
+        "C": "一号和三号"
+      }
+    },
+    "section-b-b-question-set-3-q14": {
+      "question": "如果迎面而来的车辆突然向您驶来，应该采取什么行动？",
+      "options": {
+        "A": "减速车辆以阻挡车辆",
+        "B": "放慢车速并鸣喇叭",
+        "C": "减速车辆，向左行驶，必要时停车"
+      }
+    },
+    "section-b-b-question-set-3-q15": {
+      "question": "高速公路上的安全驾驶方法是什么？",
+      "options": {
+        "A": "在指定速度限制内沿左侧车道行驶",
+        "B": "在右侧车道行驶，不遵守速度限制",
+        "C": "在左侧车道行驶，不遵守速度限制"
+      }
+    },
+    "section-b-b-question-set-3-q16": {
+      "question": "驾驶员在转弯时应该怎么做？",
+      "options": {
+        "A": "使用倒档",
+        "B": "使用高速档",
+        "C": "使用低速档"
+      }
+    },
+    "section-b-b-question-set-3-q17": {
+      "question": "如果您想在环岛右转，接近时应该走哪条车道？",
+      "options": {
+        "A": "右侧车道",
+        "B": "中路",
+        "C": "左车道"
+      }
+    },
+    "section-b-b-question-set-3-q18": {
+      "question": "下陡坡时驾驶员应该做什么？",
+      "options": {
+        "A": "仅换至低速档",
+        "B": "换至最高档并准备刹车",
+        "C": "换至低速档并准备制动"
+      }
+    },
+    "section-b-b-question-set-3-q19": {
+      "question": "当您需要将车辆停在路边并下车时，您应该",
+      "options": {
+        "A": "观察后视镜并确保前方没有车辆驶来",
+        "B": "观察后视镜并确保后面没有车辆驶来",
+        "C": "观察左侧后视镜，确保前方没有车辆驶来"
+      }
+    },
+    "section-b-b-question-set-3-q20": {
+      "question": "大雨天开车，路面能见度差怎么办？",
+      "options": {
+        "A": "继续旅程",
+        "B": "将车辆停在安全区域，等待雨停",
+        "C": "继续行驶并打开远光灯"
+      }
+    },
+    "section-b-b-question-set-3-q21": {
+      "question": "安全驾驶计划的主要目标是？",
+      "options": {
+        "A": "为预防交通事故",
+        "B": "为了避免交通拥堵",
+        "C": "创建一个赛车手"
+      }
+    },
+    "section-b-b-question-set-3-q22": {
+      "question": "如果您想超越车辆，您应该",
+      "options": {
+        "A": "4秒规则",
+        "B": "2秒规则",
+        "C": "12秒规则"
+      }
+    },
+    "section-b-b-question-set-3-q23": {
+      "question": "计划你的旅程意味着",
+      "options": {
+        "A": "规划充足的出行时间",
+        "B": "自发地",
+        "C": "当天计划"
+      }
+    },
+    "section-b-b-question-set-3-q24": {
+      "question": "在什么情况下，您会发现很难判断迎面驶来的车辆的距离和速度？",
+      "options": {
+        "A": "晚上开车",
+        "B": "大雨期间夜间行车",
+        "C": "早上开车"
+      }
+    },
+    "section-b-b-question-set-3-q25": {
+      "question": "在什么情况下您需要超车？ i) 尾随可能导致事故的车辆时 ii) 前方车辆行驶速度太慢时 iii) 前方车辆向左改变方向时",
+      "options": {
+        "A": "一和二",
+        "B": "一、二、三",
+        "C": "二和三"
+      }
+    },
+    "section-b-b-question-set-4-q1": {
+      "question": "在急弯处驾驶的正确且最安全的方法是什么？",
+      "options": {
+        "A": "快速转弯而不制动车辆",
+        "B": "缓慢行驶并挂高速档",
+        "C": "缓慢驾驶并挂入适当的档位"
+      }
+    },
+    "section-b-b-question-set-4-q2": {
+      "question": "说出掉头的安全方法；",
+      "options": {
+        "A": "在正确的车道上行驶，正确打方向灯，减速并在安全的情况下掉头",
+        "B": "在右侧车道行驶，减速并在安全的情况下掉头",
+        "C": "在右车道行驶，正确打方向灯，立即掉头"
+      }
+    },
+    "section-b-b-question-set-4-q3": {
+      "question": "在超车之前，请确保您",
+      "options": {
+        "A": "超车前应用2秒距离规则",
+        "B": "超车前应用12秒距离规则",
+        "C": "超车前应用4秒距离规则"
+      }
+    },
+    "section-b-b-question-set-4-q4": {
+      "question": "如果您在高速公路上行驶时希望移至最右侧车道，该怎么办？",
+      "options": {
+        "A": "观察后视镜和侧视镜，小心转向并驶入右侧车道",
+        "B": "观察后视镜、打转向灯并小心驶入左侧车道",
+        "C": "观察后视镜和侧视镜，小心驶入左侧车道"
+      }
+    },
+    "section-b-b-question-set-4-q5": {
+      "question": "选择有关道路施工区域的正确陈述； i) 路肩放置建筑材料 ii) 道路变窄 iii) 临时路标就位 iv) 路面尚未完全建成，请小心驾驶",
+      "options": {
+        "A": "一、二、四",
+        "B": "一、三、四",
+        "C": "一、二、三和四"
+      }
+    },
+    "section-b-b-question-set-4-q6": {
+      "question": "超车前，跟车的正确规则是什么？",
+      "options": {
+        "A": "12 秒规则适用",
+        "B": "2 秒规则适用",
+        "C": "4 秒规则适用"
+      }
+    },
+    "section-b-b-question-set-4-q7": {
+      "question": "如果脚刹车失灵，该如何安全停车？",
+      "options": {
+        "A": "换低档使车辆减速并逐渐拉起手刹",
+        "B": "挂高档，使车辆减速并逐渐拉起手刹",
+        "C": "逐渐拉起手刹停止"
+      }
+    },
+    "section-b-b-question-set-4-q8": {
+      "question": "以下因素可能导致事故，除了：",
+      "options": {
+        "A": "说",
+        "B": "打瞌睡",
+        "C": "醉"
+      }
+    },
+    "section-b-b-question-set-4-q9": {
+      "question": "雨天开车应该怎么办？",
+      "options": {
+        "A": "打开远光灯，小心驾驶并加速车辆",
+        "B": "小心驾驶并放慢车速",
+        "C": "打开灯，小心驾驶并减速"
+      }
+    },
+    "section-b-b-question-set-4-q10": {
+      "question": "当您试图超车时，前方车辆加速，您该怎么办？",
+      "options": {
+        "A": "减速并移至道路右侧",
+        "B": "减速并移回道路左侧",
+        "C": "加速并保持在道路的同一侧"
+      }
+    },
+    "section-b-b-question-set-4-q11": {
+      "question": "当前车驾驶员示意右转并减速时，您应该",
+      "options": {
+        "A": "示意从左侧超车并继续行驶，不等车辆转弯",
+        "B": "指示从右侧超车并继续行驶，不等待车辆转弯",
+        "C": "继续行驶，无需等待车辆转弯"
+      }
+    },
+    "section-b-b-question-set-4-q12": {
+      "question": "什么时候可以从道路左侧超车？",
+      "options": {
+        "A": "当前车指示左转时",
+        "B": "当前方车辆发出右转指示时",
+        "C": "当前车没有任何转向指示时"
+      }
+    },
+    "section-b-b-question-set-4-q13": {
+      "question": "以下哪项是超车的危险地点？",
+      "options": {
+        "A": "在三车道的道路上",
+        "B": "在双车道道路上",
+        "C": "一个路弯"
+      }
+    },
+    "section-b-b-question-set-4-q14": {
+      "question": "如果您开车时盲人试图过马路，您应该",
+      "options": {
+        "A": "减速并停车让盲人过马路",
+        "B": "向盲人按喇叭示意不要过马路",
+        "C": "摇下车窗，请盲人不要过马路"
+      }
+    },
+    "section-b-b-question-set-4-q15": {
+      "question": "什么时候可以从左侧超车？",
+      "options": {
+        "A": "前方车辆正在加速",
+        "B": "前方车辆正在超越其他车辆",
+        "C": "前方车辆行驶速度太慢"
+      }
+    },
+    "section-b-b-question-set-4-q16": {
+      "question": "如果您的后轮胎爆裂，导致您的车辆变得不稳定且无法控制，您该怎么办？",
+      "options": {
+        "A": "立即紧急制动",
+        "B": "缓慢制动，控制车辆，驶向平坦的路肩",
+        "C": "缓慢刹车并停在路中间"
+      }
+    },
+    "section-b-b-question-set-4-q17": {
+      "question": "以下哪项可能会导致您的车辆在弯道处打滑？",
+      "options": {
+        "A": "使用低速档",
+        "B": "使用高速档",
+        "C": "使用空挡"
+      }
+    },
+    "section-b-b-question-set-4-q18": {
+      "question": "当你看到路标“让路”时，你应该",
+      "options": {
+        "A": "变道前减速并给右侧车辆让路",
+        "B": "变道前提高车速，不要给右侧车辆让路",
+        "C": "变道前减速并给左侧车辆让路"
+      }
+    },
+    "section-b-b-question-set-4-q19": {
+      "question": "当驾驶员执行以下操作时适用哪条规则； i) 了解路线 ii) 停车 iii) 通过车辆位置和信号缓慢意图 iv) 小心驾驶",
+      "options": {
+        "A": "左转时的规则",
+        "B": "掉头时的规则",
+        "C": "交界处规则"
+      }
+    },
+    "section-b-b-question-set-4-q20": {
+      "question": "开车时，如果你的汽车引擎盖突然打开，你该怎么办？",
+      "options": {
+        "A": "紧急制动",
+        "B": "移至路肩处",
+        "C": "停在路中间"
+      }
+    },
+    "section-b-b-question-set-4-q21": {
+      "question": "司机看到路标“让路”时应该怎么做？",
+      "options": {
+        "A": "减速并给右侧车辆让路",
+        "B": "加速并不要给右侧车辆让路",
+        "C": "放慢速度并保持在同一侧"
+      }
+    },
+    "section-b-b-question-set-4-q22": {
+      "question": "在三车道高速公路上行驶时，看到左车道变窄路标时该怎么办？",
+      "options": {
+        "A": "变道前减速并不要给右侧车辆让路",
+        "B": "变道前减速并给右侧车辆让路",
+        "C": "变道前加速并不给右侧车辆让路"
+      }
+    },
+    "section-b-b-question-set-4-q23": {
+      "question": "如果夜间行车时视力受到眩光影响，您应该",
+      "options": {
+        "A": "猛鸣喇叭",
+        "B": "打开远光灯",
+        "C": "减速"
+      }
+    },
+    "section-b-b-question-set-4-q24": {
+      "question": "司机在红灯路口停车等候时应该怎么做？",
+      "options": {
+        "A": "拉起手刹并将档位移至空档",
+        "B": "松开手刹并换至一档",
+        "C": "拉起手刹并换至更高档位"
+      }
+    },
+    "section-b-b-question-set-4-q25": {
+      "question": "当您看到校车停在路边且危险警示灯亮起时，您应该",
+      "options": {
+        "A": "迅速超越校车",
+        "B": "小心驾驶，必要时停车",
+        "C": "继续按喇叭校车"
+      }
+    },
+    "section-b-b-question-set-5-q1": {
+      "question": "如果您想变更车道，您应该",
+      "options": {
+        "A": "超越其他车辆而不打灯",
+        "B": "变道前检查后视镜和侧视镜",
+        "C": "变道前清楚指示并观察后视镜和侧视镜"
+      }
+    },
+    "section-b-b-question-set-5-q2": {
+      "question": "规划行程时间表的做法有助于向驾驶员灌输一种态度",
+      "options": {
+        "A": "安全驾驶、从容不迫",
+        "B": "驾驶不小心",
+        "C": "一直开快车"
+      }
+    },
+    "section-b-b-question-set-5-q3": {
+      "question": "获得机动车辆保险的目的是什么？",
+      "options": {
+        "A": "为道路交通事故中的路标提供赔偿",
+        "B": "保护公众免受道路驾驶风险",
+        "C": "为了保护车辆本身"
+      }
+    },
+    "section-b-b-question-set-5-q4": {
+      "question": "如果您开车时盲人试图过马路，您应该",
+      "options": {
+        "A": "减速并喊盲人快点过马路",
+        "B": "减速并停车让盲人过马路",
+        "C": "在盲人过马路之前加速"
+      }
+    },
+    "section-b-b-question-set-5-q5": {
+      "question": "如果后面的车辆想在双车道道路上超越您，您应该",
+      "options": {
+        "A": "减速并立即停车",
+        "B": "加速并不要让车辆超过你",
+        "C": "减速并让车辆超越您"
+      }
+    },
+    "section-b-b-question-set-5-q6": {
+      "question": "以下因素可能会导致事故，但以下因素除外：",
+      "options": {
+        "A": "超车",
+        "B": "说",
+        "C": "超速行驶"
+      }
+    },
+    "section-b-b-question-set-5-q7": {
+      "question": "如果驾驶员在驾驶时使用没有免提套件的手机，",
+      "options": {
+        "A": "导致驾驶员注意力不集中",
+        "B": "导致驾驶员减速",
+        "C": "导致驾驶员轻松超越其他车辆"
+      }
+    },
+    "section-b-b-question-set-5-q8": {
+      "question": "如果您想在接近环岛时右转，您应该走哪条车道？",
+      "options": {
+        "A": "中路",
+        "B": "左车道",
+        "C": "右侧车道"
+      }
+    },
+    "section-b-b-question-set-5-q9": {
+      "question": "摩托车需要什么级别的驾照？",
+      "options": {
+        "A": "B级",
+        "B": "D级",
+        "C": "E级"
+      }
+    },
+    "section-b-b-question-set-5-q10": {
+      "question": "以下是 KEJARA 系统下显示的一些交通违法行为，除了",
+      "options": {
+        "A": "酒后驾驶",
+        "B": "在规定的限速范围内行驶",
+        "C": "不遵守交通信号和指示"
+      }
+    },
+    "section-b-b-question-set-5-q11": {
+      "question": "在路口停车时不允许进行以下行为，除非",
+      "options": {
+        "A": "越过停车线",
+        "B": "停在黄色方框处",
+        "C": "进入正确的车道"
+      }
+    },
+    "section-b-b-question-set-5-q12": {
+      "question": "选择正确的含义",
+      "options": {
+        "A": "D 级执照 - 摩托车",
+        "B": "E 级许可证 - 公共汽车",
+        "C": "A 级驾照 - 汽车"
+      }
+    },
+    "section-b-b-question-set-5-q13": {
+      "question": "骑摩托车之前，你应该",
+      "options": {
+        "A": "戴头盔",
+        "B": "系好安全带",
+        "C": "穿深色衣服"
+      }
+    },
+    "section-b-b-question-set-5-q14": {
+      "question": "过量饮酒对驾驶员有何影响？",
+      "options": {
+        "A": "加速",
+        "B": "安全驾驶",
+        "C": "反应迟缓"
+      }
+    },
+    "section-b-b-question-set-5-q15": {
+      "question": "什么时候可以按喇叭？",
+      "options": {
+        "A": "右转时",
+        "B": "就在超车之前",
+        "C": "左转时"
+      }
+    },
+    "section-b-b-question-set-5-q16": {
+      "question": "使用颜色鲜艳的衣服和反光镜如何有助于最大程度地减少事故风险？",
+      "options": {
+        "A": "它可以让其他道路使用者看到您",
+        "B": "它不会让其他道路使用者看到您",
+        "C": "穿着颜色鲜艳的衣服看起来很聪明"
+      }
+    },
+    "section-b-b-question-set-5-q17": {
+      "question": "安全驾驶计划的主要目标是什么？",
+      "options": {
+        "A": "造成交通堵塞",
+        "B": "以免引发事故",
+        "C": "为预防交通事故"
+      }
+    },
+    "section-b-b-question-set-5-q18": {
+      "question": "什么时候应该系安全带？",
+      "options": {
+        "A": "仅当以最高速度行驶时",
+        "B": "始终作为驾驶员和乘客",
+        "C": "松松地套在腿上"
+      }
+    },
+    "section-b-b-question-set-5-q19": {
+      "question": "什么时候应该使用手刹？",
+      "options": {
+        "A": "停在一座小山上",
+        "B": "超越前方车辆",
+        "C": "在破损的道路上行驶"
+      }
+    },
+    "section-b-b-question-set-5-q20": {
+      "question": "安全驾驶手段",
+      "options": {
+        "A": "知道如何避免超车",
+        "B": "了解如何避免和避免交通拥堵",
+        "C": "了解如何避免和避免事故"
+      }
+    },
+    "section-b-b-question-set-5-q21": {
+      "question": "当绿色交通灯变成黄色时，您应该",
+      "options": {
+        "A": "继续车辆",
+        "B": "如果车辆未越过停车线，请停车",
+        "C": "将车辆停在路中间"
+      }
+    },
+    "section-b-b-question-set-5-q22": {
+      "question": "以下是雨中安全驾驶的一些提示，除了",
+      "options": {
+        "A": "驾驶超过速度限制",
+        "B": "打开头灯",
+        "C": "开车更加谨慎"
+      }
+    },
+    "section-b-b-question-set-5-q23": {
+      "question": "安全驾驶概念包括教育驾驶员在无驾驶情况下驾驶；除了",
+      "options": {
+        "A": "实施交通违法行为",
+        "B": "无视礼貌",
+        "C": "小心驾驶"
+      }
+    },
+    "section-b-b-question-set-5-q24": {
+      "question": "根据安全驾驶理念，您应该怎样做才能避免事故？",
+      "options": {
+        "A": "识别、分析、做出决定，然后不采取行动",
+        "B": "识别、分析、做出决策并采取行动",
+        "C": "识别、分析并做出错误的决定"
+      }
+    },
+    "section-b-b-question-set-5-q25": {
+      "question": "您和您的家人计划去度假，并乘坐自己的车辆进行长途旅行。说明为避免事故而需要采取的行动方案。",
+      "options": {
+        "A": "合理规划您的行程，确保您安全到达目的地",
+        "B": "出发前一天规划好行程",
+        "C": "通过多种替代路线规划您的旅程"
+      }
+    },
+    "section-b-b-question-set-6-q1": {
+      "question": "以下是防止盲点和盲点事故的一些步骤，除了",
+      "options": {
+        "A": "行动前按喇叭",
+        "B": "移动前稍微向左或向右转动",
+        "C": "移动前不使用指示器"
+      }
+    },
+    "section-b-b-question-set-6-q2": {
+      "question": "当接近有红绿灯并由交警控制的四向路口时，您应该怎么做？",
+      "options": {
+        "A": "遵循交警的信号和指示",
+        "B": "遵循您自己的信号和指示",
+        "C": "遵循其他车辆信号和指示"
+      }
+    },
+    "section-b-b-question-set-6-q3": {
+      "question": "按顺序列出为避免发生事故应采取的重要步骤。",
+      "options": {
+        "A": "分析 > 识别 > 做出决定 > 行动",
+        "B": "识别 > 分析 > 做出决定 > 行动",
+        "C": "识别 > 行动 > 做出决定 > 分析"
+      }
+    },
+    "section-b-b-question-set-6-q4": {
+      "question": "如果您能够避免与后面的车辆发生碰撞",
+      "options": {
+        "A": "开车不小心",
+        "B": "不注明",
+        "C": "在适当的时间内注明"
+      }
+    },
+    "section-b-b-question-set-6-q5": {
+      "question": "以下是摩托车手转弯和转弯的正确方法，除了",
+      "options": {
+        "A": "转弯时身体挺直",
+        "B": "控制摩托车的速度",
+        "C": "转弯时倾斜身体"
+      }
+    },
+    "section-b-b-question-set-6-q6": {
+      "question": "超车时，必须遵守以下规则，除了",
+      "options": {
+        "A": "确保在超车前打灯",
+        "B": "超车前确保前方车辆快速行驶",
+        "C": "确保安全超越其他车辆"
+      }
+    },
+    "section-b-b-question-set-6-q7": {
+      "question": "您应该使用什么来开始移动车辆？",
+      "options": {
+        "A": "空档",
+        "B": "高速档",
+        "C": "一档"
+      }
+    },
+    "section-b-b-question-set-6-q8": {
+      "question": "夜间行驶时，如果迎面驶来的车辆打开远光灯，该怎么办？",
+      "options": {
+        "A": "打开远光灯一次，提醒车辆驾驶员调低灯光",
+        "B": "打开远光灯",
+        "C": "立即停车"
+      }
+    },
+    "section-b-b-question-set-6-q9": {
+      "question": "开车时看到一群孩子在路边玩耍，你该怎么办？",
+      "options": {
+        "A": "放慢车速，停下来陪孩子玩耍",
+        "B": "放慢车辆速度，准备加速",
+        "C": "减速车辆，必要时准备刹车和停车"
+      }
+    },
+    "section-b-b-question-set-6-q10": {
+      "question": "以下是避免与迎面驶来的车辆发生正面碰撞的一些提示，除了",
+      "options": {
+        "A": "提高速度",
+        "B": "放慢速度",
+        "C": "移动至左侧路肩"
+      }
+    },
+    "section-b-b-question-set-6-q11": {
+      "question": "出发前必须完成以下事项，以避免发生意外，除了",
+      "options": {
+        "A": "确保车辆状况良好",
+        "B": "通知邻居",
+        "C": "确保提前规划好路线"
+      }
+    },
+    "section-b-b-question-set-6-q12": {
+      "question": "如果您驾驶的车辆陷入河中，您和您的乘客可以采取的最佳行动方案是什么？",
+      "options": {
+        "A": "形成人链并从窗户退出",
+        "B": "大声呼救",
+        "C": "寻求帮助"
+      }
+    },
+    "section-b-b-question-set-6-q13": {
+      "question": "弯道处的路标表明驾驶员应该这样做，除非",
+      "options": {
+        "A": "放慢车辆速度，不要超车",
+        "B": "提高车速",
+        "C": "减速并小心驾驶"
+      }
+    },
+    "section-b-b-question-set-6-q14": {
+      "question": "开车时进入右车道之前应该做什么？",
+      "options": {
+        "A": "移动前观察后视镜和侧视镜",
+        "B": "仅观察侧视镜并在移动前进行指示",
+        "C": "变道前观察后视镜和侧视镜并进行指示"
+      }
+    },
+    "section-b-b-question-set-6-q15": {
+      "question": "在安全驾驶理念中，可以通过以下方式预防交通事故",
+      "options": {
+        "A": "识别、分析障碍物、做出决策并随后采取行动以避免交通事故",
+        "B": "识别、分析障碍物、做出决定并不采取行动以避免交通事故",
+        "C": "识别、分析障碍物，不采取行动，预防交通事故"
+      }
+    },
+    "section-b-b-question-set-6-q16": {
+      "question": "如果满足以下条件，则可以避免与车辆后端发生碰撞：",
+      "options": {
+        "A": "紧紧跟随后面的车辆",
+        "B": "保持安全距离跟随前方车辆",
+        "C": "紧跟前方车辆"
+      }
+    },
+    "section-b-b-question-set-6-q17": {
+      "question": "酒精中毒和过量吸毒如何影响一个人的驾驶？",
+      "options": {
+        "A": "他们遵守驾驶规则",
+        "B": "他们会小心驾驶",
+        "C": "它们会导致异常和疯狂的行为"
+      }
+    },
+    "section-b-b-question-set-6-q18": {
+      "question": "哪些地方禁止鸣喇叭？",
+      "options": {
+        "A": "医院",
+        "B": "在路上",
+        "C": "学校"
+      }
+    },
+    "section-b-b-question-set-6-q19": {
+      "question": "驾驶时发出正确的信号以防止发生事故意味着什么？",
+      "options": {
+        "A": "发出远光灯作为信号或特殊手势信号",
+        "B": "发出适当的灯光信号或正确的手势",
+        "C": "沿路一路按喇叭"
+      }
+    },
+    "section-b-b-question-set-6-q20": {
+      "question": "在双车道高速公路上行驶时，您应该保持在左侧车道上，除非",
+      "options": {
+        "A": "路很滑",
+        "B": "超越其他车辆",
+        "C": "当前方车辆行驶速度太慢时"
+      }
+    },
+    "section-b-b-question-set-6-q21": {
+      "question": "以下是有关道路施工区域的一些可能含义，除了",
+      "options": {
+        "A": "道路变得狭窄",
+        "B": "临时路标已设置",
+        "C": "路变得更宽"
+      }
+    },
+    "section-b-b-question-set-6-q22": {
+      "question": "以下是驾驶过程中疲劳的一些可能原因，除了",
+      "options": {
+        "A": "充足的睡眠",
+        "B": "驾驶时间长",
+        "C": "开车不休息"
+      }
+    },
+    "section-b-b-question-set-6-q23": {
+      "question": "什么时候可以从道路右侧超越其他车辆？",
+      "options": {
+        "A": "当前车指示右转时",
+        "B": "当前方车辆发出左转指示时",
+        "C": "当前车减速时"
+      }
+    },
+    "section-b-b-question-set-6-q24": {
+      "question": "精神状态对一个人的影响",
+      "options": {
+        "A": "腿",
+        "B": "手",
+        "C": "头脑"
+      }
+    },
+    "section-b-b-question-set-6-q25": {
+      "question": "一名摩托车手没有佩戴安全头盔，并且在路障处接受 JPJ 官员的指示时拒绝停车。骑车人犯了什么交通违法行为？",
+      "options": {
+        "A": "无意冒犯",
+        "B": "不戴安全帽、不停车",
+        "C": "没有停止"
+      }
+    },
+    "section-b-b-question-set-7-q1": {
+      "question": "你骑着一辆摩托车，你的妻子和孩子作为后座乘客。你犯了什么罪？",
+      "options": {
+        "A": "搭载一名以上乘客",
+        "B": "无意冒犯",
+        "C": "与车上乘客一起超速行驶"
+      }
+    },
+    "section-b-b-question-set-7-q2": {
+      "question": "选择正确的含义",
+      "options": {
+        "A": "D 级驾驶执照 - 摩托车",
+        "B": "E 级驾驶执照 - 公共汽车",
+        "C": "A 级驾驶执照 - 汽车"
+      }
+    },
+    "section-b-b-question-set-7-q3": {
+      "question": "障碍是什么意思？",
+      "options": {
+        "A": "被认定为有能力有礼貌的要素",
+        "B": "被认定为具有安全驾驶能力的要素",
+        "C": "被确定为能够危及驾驶员安全的因素"
+      }
+    },
+    "section-b-b-question-set-7-q4": {
+      "question": "路上什么被视为危险？",
+      "options": {
+        "A": "道路上的障碍，例如道路状况和交通运动",
+        "B": "道路上的障碍，例如天气",
+        "C": "道路上的障碍，例如汽车状况"
+      }
+    },
+    "section-b-b-question-set-7-q5": {
+      "question": "如果能够避免交通事故",
+      "options": {
+        "A": "司机很有礼貌，但不考虑其他道路使用者",
+        "B": "司机粗心且不考虑其他道路使用者",
+        "C": "司机对其他道路使用者有礼貌和体贴"
+      }
+    },
+    "section-b-b-question-set-7-q6": {
+      "question": "如果开车时感到疲倦、困倦，该怎么办？",
+      "options": {
+        "A": "停在路肩睡觉",
+        "B": "停在安全区域，必要时休息或睡觉",
+        "C": "立即停车"
+      }
+    },
+    "section-b-b-question-set-7-q7": {
+      "question": "以下是避免头部碰撞的规则，除了",
+      "options": {
+        "A": "提高速度",
+        "B": "减速",
+        "C": "展望"
+      }
+    },
+    "section-b-b-question-set-7-q8": {
+      "question": "在住宅区开车时应该做什么？",
+      "options": {
+        "A": "驾驶超过速度限制",
+        "B": "开车不小心",
+        "C": "小心驾驶"
+      }
+    },
+    "section-b-b-question-set-7-q9": {
+      "question": "在跟随另一辆车接近施工区域时，您应该预料到什么？",
+      "options": {
+        "A": "车辆可能会加速",
+        "B": "车辆可能会突然停止",
+        "C": "车辆可能会指示左转或右转"
+      }
+    },
+    "section-b-b-question-set-7-q10": {
+      "question": "您需要充分关注驾驶的各个方面，除了",
+      "options": {
+        "A": "总是超越前方车辆",
+        "B": "正确指示从左或右超车",
+        "C": "遵守所有交通灯"
+      }
+    },
+    "section-b-b-question-set-7-q11": {
+      "question": "在高速公路上以 110 公里/小时的速度行驶时，您的车辆前方发生了事故。您踩下刹车，发现刹车不起作用。您应该执行以下操作，除了",
+      "options": {
+        "A": "使用手刹",
+        "B": "换至倒档",
+        "C": "踩刹车"
+      }
+    },
+    "section-b-b-question-set-7-q12": {
+      "question": "当您的车辆突然偏离道路时，您应该做这些事情，除了",
+      "options": {
+        "A": "保持冷静，减速并慢慢回到道路上",
+        "B": "保持恐慌，加速车辆并迅速返回道路",
+        "C": "保持冷静，慢慢回到路上"
+      }
+    },
+    "section-b-b-question-set-7-q13": {
+      "question": "安全驾驶员包含以下特征，除了",
+      "options": {
+        "A": "体贴并谨慎驾驶",
+        "B": "对赛车和快速驾驶充满热情",
+        "C": "保持冷静并谨慎驾驶"
+      }
+    },
+    "section-b-b-question-set-7-q14": {
+      "question": "在三车道高速公路上行驶时，以下陈述均正确，除了",
+      "options": {
+        "A": "左侧车道适合慢速行驶",
+        "B": "适合快速行驶的右侧车道",
+        "C": "适合慢速行驶的右侧车道"
+      }
+    },
+    "section-b-b-question-set-7-q15": {
+      "question": "在不平坦的路面上应该怎么办？",
+      "options": {
+        "A": "加速",
+        "B": "减速",
+        "C": "突然停下来"
+      }
+    },
+    "section-b-b-question-set-7-q16": {
+      "question": "停车时应踩哪个踏板？",
+      "options": {
+        "A": "离合器后接手刹",
+        "B": "速度跟随手刹",
+        "C": "先刹车后离合器"
+      }
+    },
+    "section-b-b-question-set-7-q17": {
+      "question": "什么时候应该开始戴头盔？",
+      "options": {
+        "A": "短途航线",
+        "B": "长途航线",
+        "C": "当你骑摩托车的时候"
+      }
+    },
+    "section-b-b-question-set-7-q18": {
+      "question": "您可以在这些区域停车，除了",
+      "options": {
+        "A": "靠近消防栓",
+        "B": "停车场",
+        "C": "住房面积"
+      }
+    },
+    "section-b-b-question-set-7-q19": {
+      "question": "以下行为是不体贴且危险的，除了",
+      "options": {
+        "A": "加速",
+        "B": "遵守道路法规",
+        "C": "无任何迹象超车"
+      }
+    },
+    "section-b-b-question-set-7-q20": {
+      "question": "摩托车上的“P”牌应该放在哪里？",
+      "options": {
+        "A": "前大灯的顶部和底部或车牌号上方",
+        "B": "前大灯顶部或底部或车牌号底部",
+        "C": "前大灯的顶部和底部或车牌号上"
+      }
+    },
+    "section-b-b-question-set-7-q21": {
+      "question": "以下是良好驾驶的特征，除了",
+      "options": {
+        "A": "出发前未检查车辆",
+        "B": "出发前检查车辆",
+        "C": "仔细规划行程，避开高峰时段交通拥堵"
+      }
+    },
+    "section-b-b-question-set-7-q22": {
+      "question": "如果发生事故并且您的车辆受损该怎么办？",
+      "options": {
+        "A": "迅速驾车离开事发现场",
+        "B": "与其他车辆司机对峙",
+        "C": "向警方报案并通知保险公司"
+      }
+    },
+    "section-b-b-question-set-7-q23": {
+      "question": "每个司机都应该具备的一种值得称赞的态度是",
+      "options": {
+        "A": "不小心驾驶并向其他道路使用者鸣喇叭",
+        "B": "考虑其他道路使用者",
+        "C": "超速"
+      }
+    },
+    "section-b-b-question-set-7-q24": {
+      "question": "如果您发现引擎盖冒烟且车内温度升高，该怎么办？",
+      "options": {
+        "A": "关闭发动机，等待发动机冷却并继续您的旅程",
+        "B": "启动发动机，待无烟冒出后，向散热器加水",
+        "C": "关闭发动机，等待发动机冷却并向散热器添加水"
+      }
+    },
+    "section-b-b-question-set-7-q25": {
+      "question": "夜间跟随其他车辆时，禁止使用远光灯，因为它会",
+      "options": {
+        "A": "造成前方驾驶员眩光",
+        "B": "导致事故发生",
+        "C": "造成交通堵塞"
+      }
+    },
+    "section-b-b-question-set-8-q1": {
+      "question": "如何避免与前车相撞？",
+      "options": {
+        "A": "从后面注视车辆并违反距离规则",
+        "B": "留意前方车辆并遵守车距规则",
+        "C": "留意旁边车辆并遵守距离规则"
+      }
+    },
+    "section-b-b-question-set-8-q2": {
+      "question": "以下是由于道路和天气条件导致的事故，除了",
+      "options": {
+        "A": "在损坏的道路上鲁莽驾驶",
+        "B": "暴雨期间超速行驶",
+        "C": "小心驾驶"
+      }
+    },
+    "section-b-b-question-set-8-q3": {
+      "question": "以下是雨天安全驾驶的一些提示，除了",
+      "options": {
+        "A": "关掉灯",
+        "B": "放慢车速",
+        "C": "打开灯"
+      }
+    },
+    "section-b-b-question-set-8-q4": {
+      "question": "说出优秀司机的一项特质",
+      "options": {
+        "A": "总是匆忙且不顾一切",
+        "B": "始终保持耐心和体贴",
+        "C": "总是不耐烦和粗心"
+      }
+    },
+    "section-b-b-question-set-8-q5": {
+      "question": "应采取以下预防措施以避免道路事故，除了",
+      "options": {
+        "A": "不超车",
+        "B": "小心驾驶",
+        "C": "使用不合适的装备"
+      }
+    },
+    "section-b-b-question-set-8-q6": {
+      "question": "掉头时应采取以下措施，除了",
+      "options": {
+        "A": "仅观察右侧后视镜",
+        "B": "观察后视镜",
+        "C": "必须及早表明"
+      }
+    },
+    "section-b-b-question-set-8-q7": {
+      "question": "醉酒驾驶的人应该怎么办？",
+      "options": {
+        "A": "接近朋友坐在乘客座位上并给他们指路",
+        "B": "接近没有向司机喝酒或使用公共交通工具的朋友",
+        "C": "与一些朋友一起开车"
+      }
+    },
+    "section-b-b-question-set-8-q8": {
+      "question": "暂准驾驶执照持有者需要展示“P”牌多长时间？",
+      "options": {
+        "A": "1年",
+        "B": "2年",
+        "C": "3年"
+      }
+    },
+    "section-b-b-question-set-8-q9": {
+      "question": "当您试图超车时前方车辆加速时，您应该",
+      "options": {
+        "A": "减速车辆并移回道路右侧",
+        "B": "减速并移回道路左侧",
+        "C": "减速并保持在道路的同一侧"
+      }
+    },
+    "section-b-b-question-set-8-q10": {
+      "question": "关于 KEJARA 系统，以下哪项含义是正确的",
+      "options": {
+        "A": "旨在降低驾驶员的道路安全意识",
+        "B": "旨在减少道路事故数量",
+        "C": "成立是为了增加道路事故数量"
+      }
+    },
+    "section-b-b-question-set-8-q11": {
+      "question": "开车前的适当行动是",
+      "options": {
+        "A": "调整座椅、后视镜和侧视镜",
+        "B": "调整座椅、后视镜并系好安全带",
+        "C": "调整座椅、后视镜、侧视镜并系好安全带"
+      }
+    },
+    "section-b-b-question-set-8-q12": {
+      "question": "暂准驾驶执照的有效期为",
+      "options": {
+        "A": "3年",
+        "B": "1年",
+        "C": "2年"
+      }
+    },
+    "section-b-b-question-set-8-q13": {
+      "question": "暂准驾驶执照 (PDL) 持有者必须始终出示",
+      "options": {
+        "A": "车辆前后P牌",
+        "B": "仅限车辆前方的 P 牌",
+        "C": "仅限车辆后方的 P 牌"
+      }
+    },
+    "section-b-b-question-set-8-q14": {
+      "question": "避免正面碰撞的四个规则是",
+      "options": {
+        "A": "向前看，向右行驶，加快速度并驶离道路",
+        "B": "向后看，向右行驶，减速并驶离道路",
+        "C": "向前看，向左行驶，减速并驶离道路"
+      }
+    },
+    "section-b-b-question-set-8-q15": {
+      "question": "在压力下驾驶时，以下哪项不是合适的压力管理技术？",
+      "options": {
+        "A": "超速行驶",
+        "B": "聊天",
+        "C": "锻炼身体"
+      }
+    },
+    "section-b-b-question-set-8-q16": {
+      "question": "处理转向的正确方法是",
+      "options": {
+        "A": "左右手分别在时钟位置 10.00 和 2.00 处握住方向盘",
+        "B": "左右手分别在时钟位置 6.00 和 12.00 处握住方向盘",
+        "C": "左右手分别在时钟位置 12.00 和 5.00 处握住方向盘"
+      }
+    },
+    "section-b-b-question-set-8-q17": {
+      "question": "获得 C 级驾驶执照的最低年龄是多少岁？",
+      "options": {
+        "A": "16年",
+        "B": "17年",
+        "C": "18岁"
+      }
+    },
+    "section-b-b-question-set-8-q18": {
+      "question": "以下是有关 KEJARA 系统的正确陈述，除了",
+      "options": {
+        "A": "旨在提高驾驶员的道路安全意识",
+        "B": "成立是为了增加道路事故数量",
+        "C": "旨在减少道路事故数量"
+      }
+    },
+    "section-b-b-question-set-8-q19": {
+      "question": "夜间尾随另一辆车时，您应该",
+      "options": {
+        "A": "尾巴靠近它并打开光束大灯",
+        "B": "尾部保持正确的距离，无需打开任何灯",
+        "C": "保持正确的距离并降低灯光"
+      }
+    },
+    "section-b-b-question-set-8-q20": {
+      "question": "2秒规则是什么意思？",
+      "options": {
+        "A": "超越其他车辆的规则",
+        "B": "跟随车辆的规则",
+        "C": "停车规则"
+      }
+    },
+    "section-b-b-question-set-8-q21": {
+      "question": "C 类驾驶执照的最低年龄是",
+      "options": {
+        "A": "16年",
+        "B": "17年",
+        "C": "18岁"
+      }
+    },
+    "section-b-b-question-set-8-q22": {
+      "question": "要开始以正确的方式移动您的车辆，您应该",
+      "options": {
+        "A": "使用空挡",
+        "B": "使用高速档",
+        "C": "使用第一档"
+      }
+    },
+    "section-b-b-question-set-8-q23": {
+      "question": "在路口右转之前，驾驶员应",
+      "options": {
+        "A": "向右打灯，给迎面而来的车辆让路并右转",
+        "B": "向左打灯，给迎面而来的车辆让路并右转",
+        "C": "无需指示和转弯"
+      }
+    },
+    "section-b-b-question-set-8-q24": {
+      "question": "应用哪条规则来避免与前方车辆发生碰撞？",
+      "options": {
+        "A": "2秒规则",
+        "B": "3秒规则",
+        "C": "4秒规则"
+      }
+    },
+    "section-b-b-question-set-8-q25": {
+      "question": "按顺序列出为避免发生事故而应采取的重要步骤的顺序。",
+      "options": {
+        "A": "分析 > 识别 > 做出决定 > 不采取行动",
+        "B": "识别 > 分析 > 做出决定 > 行动",
+        "C": "行动 > 识别 > 做出决策 > 分析"
+      }
+    },
+    "section-b-b-question-set-9-q1": {
+      "question": "驾驶员在弯道处看到路标时应避免以下哪些行为？",
+      "options": {
+        "A": "减速行驶，不要超越其他车辆",
+        "B": "提高车速",
+        "C": "减速并小心驾驶"
+      }
+    },
+    "section-b-b-question-set-9-q2": {
+      "question": "在大雨中驾驶时，以下哪项是不可取的？",
+      "options": {
+        "A": "驾驶超过速度限制",
+        "B": "打开头灯",
+        "C": "开车更小心"
+      }
+    },
+    "section-b-b-question-set-9-q3": {
+      "question": "当有其他车辆紧随其后时，应该怎样做才能避免与后面的车辆发生碰撞？",
+      "options": {
+        "A": "指示并超越前方车辆",
+        "B": "在安全的情况下，为车辆超车提供指示并让路",
+        "C": "即使在安全的情况下，也可以鸣喇叭并阻挡车辆超越您的道路"
+      }
+    },
+    "section-b-b-question-set-9-q4": {
+      "question": "安全驾驶理念下的识别手段",
+      "options": {
+        "A": "确定跟随其他车辆的规则",
+        "B": "确定道路上车辆的速度限制",
+        "C": "确定可能发生事故的条件"
+      }
+    },
+    "section-b-b-question-set-9-q5": {
+      "question": "如果开车时感到疲倦、困倦，该怎么办？",
+      "options": {
+        "A": "停在路边休息",
+        "B": "停在安全区域，必要时休息或睡觉",
+        "C": "立即停车"
+      }
+    },
+    "section-b-b-question-set-9-q6": {
+      "question": "以下因素可能导致事故，除了",
+      "options": {
+        "A": "超车",
+        "B": "说",
+        "C": "超速行驶"
+      }
+    },
+    "section-b-b-question-set-9-q7": {
+      "question": "在开始旅行之前必须计划以下事项以避免发生事故，除了",
+      "options": {
+        "A": "确保车辆状况良好",
+        "B": "通知邻居",
+        "C": "确保提前计划好路线"
+      }
+    },
+    "section-b-b-question-set-9-q8": {
+      "question": "根据研究，醉酒驾驶者与清醒驾驶者相比，发生交通事故的概率是多少？",
+      "options": {
+        "A": "15次",
+        "B": "10次",
+        "C": "25次"
+      }
+    },
+    "section-b-b-question-set-9-q9": {
+      "question": "当前方交通灯由红变绿时，您应该",
+      "options": {
+        "A": "如果安全的话继续",
+        "B": "停止",
+        "C": "踩踏板减速"
+      }
+    },
+    "section-b-b-question-set-9-q10": {
+      "question": "高速公路上私人货车的最高速度限制为",
+      "options": {
+        "A": "110公里/小时",
+        "B": "130公里/小时",
+        "C": "150公里/小时"
+      }
+    },
+    "section-b-b-question-set-9-q11": {
+      "question": "直线道路上发生事故的主要原因是什么？",
+      "options": {
+        "A": "缓慢行驶",
+        "B": "超车",
+        "C": "超速"
+      }
+    },
+    "section-b-b-question-set-9-q12": {
+      "question": "什么时候允许鸣喇叭？",
+      "options": {
+        "A": "加速时",
+        "B": "就在超车之前",
+        "C": "当指示左转或右转时"
+      }
+    },
+    "section-b-b-question-set-9-q13": {
+      "question": "以下是骑摩托车的基本技术，除了",
+      "options": {
+        "A": "错误的身体姿势",
+        "B": "手和腿的正确位置",
+        "C": "转弯时平衡身体位置"
+      }
+    },
+    "section-b-b-question-set-9-q14": {
+      "question": "开车时如何控制愤怒？",
+      "options": {
+        "A": "在安全的地方停下来，直到您重新控制自己的情绪",
+        "B": "带着内心的愤怒继续你的旅程",
+        "C": "提高车辆的速度"
+      }
+    },
+    "section-b-b-question-set-9-q15": {
+      "question": "在开始长途旅行之前，您应该执行以下操作，除了",
+      "options": {
+        "A": "检查汽油",
+        "B": "检查您的汽车状况",
+        "C": "检查收音机"
+      }
+    },
+    "section-b-b-question-set-9-q16": {
+      "question": "造成道路交通事故的主要因素是",
+      "options": {
+        "A": "交通灯",
+        "B": "司机",
+        "C": "路"
+      }
+    },
+    "section-b-b-question-set-9-q17": {
+      "question": "100毫升尿液中允许的最大酒精含量为",
+      "options": {
+        "A": "110毫克酒精",
+        "B": "107 毫克酒精",
+        "C": "104毫克酒精"
+      }
+    },
+    "section-b-b-question-set-9-q18": {
+      "question": "开车穿过被淹没的道路且附近有行人时应该怎么做？",
+      "options": {
+        "A": "减速并突然刹车",
+        "B": "提高车速，使水溅到行人身上",
+        "C": "减速行驶，以免水溅到行人身上"
+      }
+    },
+    "section-c-c-question-set-1-q1": {
+      "question": "以下哪一项不是职业许可证的一种？",
+      "options": {
+        "A": "合格驾驶执照 (CDL)",
+        "B": "指挥执照",
+        "C": "货运驾驶执照 (GDL)"
+      }
+    },
+    "section-c-c-question-set-1-q2": {
+      "question": "以下哪项是生理压力体验？",
+      "options": {
+        "A": "感觉幸福",
+        "B": "精神和身体紧张",
+        "C": "通过驾驶考试"
+      }
+    },
+    "section-c-c-question-set-1-q3": {
+      "question": "根据《1987 年道路运输法》及其规定，如果司机将车辆停在公共汽车站并在去买报纸时让发动机运转，那么他犯了什么罪？",
+      "options": {
+        "A": "在禁止区域停车",
+        "B": "离开车辆并打开车窗",
+        "C": "在非禁区停车"
+      }
+    },
+    "section-c-c-question-set-1-q4": {
+      "question": "选择显示正张力的条件",
+      "options": {
+        "A": "婚姻",
+        "B": "死亡",
+        "C": "生病的"
+      }
+    },
+    "section-c-c-question-set-1-q5": {
+      "question": "高速公路上汽车的最高限速为",
+      "options": {
+        "A": "90公里/小时",
+        "B": "110公里/小时",
+        "C": "120公里/小时"
+      }
+    },
+    "section-c-c-question-set-1-q6": {
+      "question": "以下哪一项不符合申请人在马来西亚获得学习驾驶执照 (LDL) 的资格？",
+      "options": {
+        "A": "未参加5小时KPP课程并颁发出席证书，JPJL2A",
+        "B": "参加6小时Pre-L培训并颁发出席证书，JPJL2B",
+        "C": "自申请之日起 2 年内通过法规理论考试（第 1 部分）"
+      }
+    },
+    "section-c-c-question-set-1-q7": {
+      "question": "学习驾驶执照 (LDL) 可以更新",
+      "options": {
+        "A": "每年一次",
+        "B": "1或2年",
+        "C": "3、6个月一次"
+      }
+    },
+    "section-c-c-question-set-1-q8": {
+      "question": "如果驾驶员在驾照被吊销的情况下驾驶，会受到什么处罚？",
+      "options": {
+        "A": "罚款2000令吉及监禁6个月",
+        "B": "1年不能开车",
+        "C": "不允许申请新许可证"
+      }
+    },
+    "section-c-c-question-set-1-q9": {
+      "question": "如果持有人被发现犯有以下罪行，则根据 KEJARA 系统，合格驾驶执照 (CDL) 可能会被吊销，除了",
+      "options": {
+        "A": "小心谨慎地驾驶",
+        "B": "参加非法比赛",
+        "C": "不顾及鲁莽驾驶"
+      }
+    },
+    "section-c-c-question-set-1-q10": {
+      "question": "根据 KEJARA 系统，暂定驾驶执照 (PDL) 持有者将因以下违规行为被扣分，除了",
+      "options": {
+        "A": "驾驶时未携带暂准驾驶执照",
+        "B": "呼气、血液或尿液中的酒精含量测试未达到 0.00 级",
+        "C": "在车辆上显示“P”牌"
+      }
+    },
+    "section-c-c-question-set-1-q11": {
+      "question": "一名司机随意将车停在繁忙的地区。根据 1987 年道路运输法第 48 条，这种行为是犯罪行为，因为",
+      "options": {
+        "A": "造成危险、阻碍或难以使用其他道路",
+        "B": "造成安全、障碍或难以使用其他道路",
+        "C": "创造安全、障碍或易于使用的其他道路"
+      }
+    },
+    "section-c-c-question-set-1-q12": {
+      "question": "根据 KEJARA 系统，以下违规行为将被扣分，除了",
+      "options": {
+        "A": "疯狂地开车",
+        "B": "遵守路标",
+        "C": "不要看路标"
+      }
+    },
+    "section-c-c-question-set-1-q13": {
+      "question": "暂准驾驶执照的有效期",
+      "options": {
+        "A": "1年",
+        "B": "2年",
+        "C": "3年"
+      }
+    },
+    "section-c-c-question-set-1-q14": {
+      "question": "如何将驾驶时的压力降至最低？",
+      "options": {
+        "A": "加快车辆的速度",
+        "B": "仍继续行驶直至到达目的地",
+        "C": "停下来休息并做一些轻微的运动"
+      }
+    },
+    "section-c-c-question-set-1-q15": {
+      "question": "以下哪种情况不需要超车？",
+      "options": {
+        "A": "尾随不会造成事故的车辆时",
+        "B": "当前方车辆行驶速度非常慢时",
+        "C": "当前车向左改变方向时"
+      }
+    },
+    "section-c-c-question-set-1-q16": {
+      "question": "在急弯处驾驶的正确且最安全的方法是什么？",
+      "options": {
+        "A": "加快速度并接合不适当的档位",
+        "B": "缓慢驾驶并挂入适当的档位",
+        "C": "缓慢驾驶并挂入不合适的档位"
+      }
+    },
+    "section-c-c-question-set-1-q17": {
+      "question": "当您需要将车辆停在路边并下车时，您应该采取什么预防措施？",
+      "options": {
+        "A": "观察侧视镜并确认前方有车辆驶来",
+        "B": "观察后视镜，确认后方有车辆驶来",
+        "C": "观察后视镜并确保后面没有车辆驶来"
+      }
+    },
+    "section-c-c-question-set-1-q18": {
+      "question": "开车时如何避免急刹车？",
+      "options": {
+        "A": "保持安全距离，根据天气和路况调整驾驶方式",
+        "B": "保持近距离并根据天气和路况调整驾驶",
+        "C": "保持安全距离，不要根据天气和路况调整驾驶"
+      }
+    },
+    "section-c-c-question-set-1-q19": {
+      "question": "允许超车区域",
+      "options": {
+        "A": "在非常湿滑的路上",
+        "B": "在前面的弯道上",
+        "C": "在有断续线的笔直道路上"
+      }
+    },
+    "section-c-c-question-set-1-q20": {
+      "question": "如果您想在接近环岛时右转，您应该走哪条车道？",
+      "options": {
+        "A": "左车道",
+        "B": "右侧车道",
+        "C": "中路"
+      }
+    },
+    "section-c-c-question-set-1-q21": {
+      "question": "从陡峭的山坡上开车需要高度小心。遇到这种情况，驾驶员应该怎么做？",
+      "options": {
+        "A": "换至更高档位并准备制动",
+        "B": "换至低速档并准备制动",
+        "C": "换至空档并制动"
+      }
+    },
+    "section-c-c-question-set-1-q22": {
+      "question": "不体贴的驾驶可能会造成危险情况，包括",
+      "options": {
+        "A": "夜间行驶时始终打开远光灯",
+        "B": "转弯或超车前务必打灯",
+        "C": "始终小心驾驶"
+      }
+    },
+    "section-c-c-question-set-1-q23": {
+      "question": "驾驶员在转弯时应该怎么做？",
+      "options": {
+        "A": "使用空挡",
+        "B": "使用高速档",
+        "C": "使用低速档"
+      }
+    },
+    "section-c-c-question-set-1-q24": {
+      "question": "说出高速公路上的安全驾驶方法",
+      "options": {
+        "A": "靠左行驶并超过指定速度限制",
+        "B": "在指定速度限制内沿左侧车道行驶",
+        "C": "沿右侧车道行驶并加速"
+      }
+    },
+    "section-c-c-question-set-1-q25": {
+      "question": "如果前方车辆突然向您驶来，您应该采取什么行动？",
+      "options": {
+        "A": "加速，移至中间车道，必要时停车",
+        "B": "加速，向右移动，必要时停止",
+        "C": "减速车辆，向左行驶，必要时停车"
+      }
+    },
+    "section-c-c-question-set-2-q1": {
+      "question": "哪些因素可能导致旅程结束时发生事故？",
+      "options": {
+        "A": "月光",
+        "B": "疲倦和嗜睡",
+        "C": "车辆状况良好"
+      }
+    },
+    "section-c-c-question-set-2-q2": {
+      "question": "夜间跟车时应采取哪些安全预防措施？",
+      "options": {
+        "A": "练习安全距离规则并打开弱光灯",
+        "B": "练习安全距离规则并打开远光灯",
+        "C": "练习安全距离规则，开车时猛鸣喇叭"
+      }
+    },
+    "section-c-c-question-set-2-q3": {
+      "question": "下坡行驶时减慢车辆速度的最佳方法是什么？",
+      "options": {
+        "A": "换至空档并使用脚制动器",
+        "B": "换至高速档并使用脚制动器",
+        "C": "换至低速档并使用脚制动器"
+      }
+    },
+    "section-c-c-question-set-2-q4": {
+      "question": "以下哪项不是避免匆忙驾驶的好方法？",
+      "options": {
+        "A": "早点出发",
+        "B": "开车时提高速度",
+        "C": "计划好每一次旅程"
+      }
+    },
+    "section-c-c-question-set-2-q5": {
+      "question": "超车时，车辆驾驶员撞上了迎面驶来的车辆。司机违反了哪条距离规则？",
+      "options": {
+        "A": "6秒规则",
+        "B": "12 秒规则",
+        "C": "4秒规则"
+      }
+    },
+    "section-c-c-question-set-2-q6": {
+      "question": "下列哪种情况可能会引发交通事故？",
+      "options": {
+        "A": "小心驾驶",
+        "B": "交通、照明和道路",
+        "C": "驾驶员、车辆、天气、交通、照明和道路"
+      }
+    },
+    "section-c-c-question-set-2-q7": {
+      "question": "开车时打瞌睡怎么办？",
+      "options": {
+        "A": "停车休息",
+        "B": "继续行驶",
+        "C": "停在路中间"
+      }
+    },
+    "section-c-c-question-set-2-q8": {
+      "question": "开车时发现自己没有系安全带怎么办？",
+      "options": {
+        "A": "停在路中间并系好安全带",
+        "B": "停在道路左侧并系好安全带",
+        "C": "忽略它并继续行驶"
+      }
+    },
+    "section-c-c-question-set-2-q9": {
+      "question": "不顾他人利益的驾驶员不仅可以通过其驾驶车辆超过规定的速度限制或危险驾驶来看出，还可以通过其以下行为来看出：",
+      "options": {
+        "A": "小心驾驶",
+        "B": "遵守交通灯规则",
+        "C": "未能发出正确的信号"
+      }
+    },
+    "section-c-c-question-set-2-q10": {
+      "question": "驾驶员对其他道路使用者的责任意味着",
+      "options": {
+        "A": "在不同情况下对所有道路使用者采取妥协的态度",
+        "B": "根据不同情况对所有道路使用者采取鲁莽的态度",
+        "C": "根据不同情况对所有道路使用者采取粗心的态度"
+      }
+    },
+    "section-c-c-question-set-2-q11": {
+      "question": "在高速公路上行驶且因大雨能见度很低时，您应该",
+      "options": {
+        "A": "使用喇叭",
+        "B": "使用远光灯",
+        "C": "使用近光灯"
+      }
+    },
+    "section-c-c-question-set-2-q12": {
+      "question": "关注其他流量用户意味着什么？",
+      "options": {
+        "A": "司机在任何情况下都必须鲁莽",
+        "B": "驾驶员在任何情况下都必须小心",
+        "C": "司机在任何情况下都必须小心"
+      }
+    },
+    "section-c-c-question-set-2-q13": {
+      "question": "避免正面碰撞应遵守的四项规则是",
+      "options": {
+        "A": "向前看，向右行驶，加快速度并驶离道路",
+        "B": "向后看，向右移动，减速并驶离道路",
+        "C": "向前看，向左行驶，减速并驶离道路"
+      }
+    },
+    "section-c-c-question-set-2-q14": {
+      "question": "如果开车时看到路中间有动物，该怎么办？",
+      "options": {
+        "A": "缓慢行驶，不要鸣喇叭并准备停车",
+        "B": "缓慢行驶，鸣喇叭并继续行驶",
+        "C": "提高速度并继续超速"
+      }
+    },
+    "section-c-c-question-set-2-q15": {
+      "question": "为什么开车时要经常观察后视镜和侧视镜？",
+      "options": {
+        "A": "检查车辆前方的交通状况",
+        "B": "检查车辆后方的交通状况",
+        "C": "查看周围其他车辆的交通状况"
+      }
+    },
+    "section-c-c-question-set-2-q16": {
+      "question": "当交通灯变黄时你应该做什么？",
+      "options": {
+        "A": "红灯前加快车速",
+        "B": "将车辆停在白线前",
+        "C": "如果安全的话，将车辆停在白线后面"
+      }
+    },
+    "section-c-c-question-set-2-q17": {
+      "question": "根据 KEJARA 系统，以下哪些违规行为会被扣分？",
+      "options": {
+        "A": "无视路标",
+        "B": "转弯时指示",
+        "C": "没有打开大灯"
+      }
+    },
+    "section-c-c-question-set-2-q18": {
+      "question": "选择有关齿轮使用的正确说法",
+      "options": {
+        "A": "上坡行驶时换至倒档",
+        "B": "上坡行驶时换至高速档",
+        "C": "上坡行驶时换至低速档"
+      }
+    },
+    "section-c-c-question-set-2-q19": {
+      "question": "2秒规则是什么意思？",
+      "options": {
+        "A": "超越其他车辆的规则",
+        "B": "跟随车辆的规则",
+        "C": "停车规则"
+      }
+    },
+    "section-c-c-question-set-2-q20": {
+      "question": "取得 C 级驾驶执照的最低年龄是多少岁？",
+      "options": {
+        "A": "16年",
+        "B": "17年",
+        "C": "18岁"
+      }
+    },
+    "section-c-c-question-set-2-q21": {
+      "question": "B2 级和 D 级驾驶执照持有者的最低年龄是多少？",
+      "options": {
+        "A": "16岁及17岁以上",
+        "B": "18岁及21岁以上",
+        "C": "19岁及25岁以上"
+      }
+    },
+    "section-c-c-question-set-2-q22": {
+      "question": "根据KEJARA系统，谁有资格获得奖金？",
+      "options": {
+        "A": "学习驾驶执照 (LDL)",
+        "B": "暂准驾驶执照 (PDL)",
+        "C": "合格驾驶执照 (CDL)"
+      }
+    },
+    "section-c-c-question-set-2-q23": {
+      "question": "急弯行驶时应该怎么做？",
+      "options": {
+        "A": "减速并在右侧车道行驶",
+        "B": "减速并在左侧车道行驶",
+        "C": "加速并在左侧车道行驶"
+      }
+    },
+    "section-c-c-question-set-2-q24": {
+      "question": "如果您想在双车道环岛右转，您应该进入哪条车道？",
+      "options": {
+        "A": "中路",
+        "B": "右侧车道",
+        "C": "左车道"
+      }
+    },
+    "section-c-c-question-set-2-q25": {
+      "question": "开车上陡坡时，应",
+      "options": {
+        "A": "使用低速档",
+        "B": "使用空挡",
+        "C": "使用最高档位"
+      }
+    },
+    "section-c-c-question-set-3-q1": {
+      "question": "获得 D 级驾驶执照的最低年龄是多少岁？",
+      "options": {
+        "A": "15年",
+        "B": "16年",
+        "C": "17年"
+      }
+    },
+    "section-c-c-question-set-3-q2": {
+      "question": "驾驶三轮摩托车需要什么级别的驾照？",
+      "options": {
+        "A": "C级",
+        "B": "D级",
+        "C": "E级"
+      }
+    },
+    "section-c-c-question-set-3-q3": {
+      "question": "KEJARA 系统是缩写",
+      "options": {
+        "A": "安全道路系统",
+        "B": "交通违法行为扣分制度",
+        "C": "系统道路安全"
+      }
+    },
+    "section-c-c-question-set-3-q4": {
+      "question": "驾驶排量超过 500cc 的摩托车需要什么级别的驾照？",
+      "options": {
+        "A": "乙",
+        "B": "C",
+        "C": "D"
+      }
+    },
+    "section-c-c-question-set-3-q5": {
+      "question": "获得驾驶执照的最低年龄是",
+      "options": {
+        "A": "18岁",
+        "B": "15年",
+        "C": "16年"
+      }
+    },
+    "section-c-c-question-set-3-q6": {
+      "question": "用于申请驾驶执照的第二部分和第三部分考试成绩的有效期为",
+      "options": {
+        "A": "6个月",
+        "B": "1年",
+        "C": "2年"
+      }
+    },
+    "section-c-c-question-set-3-q7": {
+      "question": "申请驾驶执照的健康状况如何？",
+      "options": {
+        "A": "身体健康，视力18米，色盲",
+        "B": "身体健康，视力20米，色盲",
+        "C": "身体健康，视力23米，非色盲"
+      }
+    },
+    "section-c-c-question-set-3-q8": {
+      "question": "高速公路上汽车的指定最高速度限制是多少？",
+      "options": {
+        "A": "90公里/小时",
+        "B": "110公里/小时",
+        "C": "120公里/小时"
+      }
+    },
+    "section-c-c-question-set-3-q9": {
+      "question": "根据《1987 年道路运输法》，下列哪项违法行为会受到处罚？",
+      "options": {
+        "A": "行驶时不超过规定的速度限制",
+        "B": "在规定的限速范围内行驶",
+        "C": "驾驶超过指定速度限制"
+      }
+    },
+    "section-c-c-question-set-3-q10": {
+      "question": "合格驾驶执照 (CDL) 到期后多少年不能更新？",
+      "options": {
+        "A": "2年",
+        "B": "3年",
+        "C": "4年"
+      }
+    },
+    "section-c-c-question-set-3-q11": {
+      "question": "暂准驾驶执照（PDL）的有效期是多长？",
+      "options": {
+        "A": "12个月",
+        "B": "18个月",
+        "C": "24个月"
+      }
+    },
+    "section-c-c-question-set-3-q12": {
+      "question": "申请 B 级学习驾驶执照 (LDL) 的最低资格年龄是多少？",
+      "options": {
+        "A": "16年",
+        "B": "17年",
+        "C": "18岁"
+      }
+    },
+    "section-c-c-question-set-3-q13": {
+      "question": "道路法规考试（第一部分）成绩的有效期是多长？",
+      "options": {
+        "A": "自通过之日起两年",
+        "B": "自通过之日起三年",
+        "C": "自通过之日起四年"
+      }
+    },
+    "section-c-c-question-set-3-q14": {
+      "question": "申请人取得驾驶执照的驾驶考试成绩证明书（JPJL3）的有效期为",
+      "options": {
+        "A": "6个月",
+        "B": "1年",
+        "C": "2年"
+      }
+    },
+    "section-c-c-question-set-3-q15": {
+      "question": "暂准驾驶执照 (PDL) 持有者必须始终显示",
+      "options": {
+        "A": "车辆前后P牌",
+        "B": "仅限车辆前方的 P 牌",
+        "C": "仅限车辆后方的 P 牌"
+      }
+    },
+    "section-c-c-question-set-3-q16": {
+      "question": "显示汽车“P”牌的正确方法是",
+      "options": {
+        "A": "前后挡风玻璃中间",
+        "B": "位于前后挡风玻璃的右侧",
+        "C": "位于前后挡风玻璃的左侧"
+      }
+    },
+    "section-c-c-question-set-3-q17": {
+      "question": "暂准驾驶执照 (PDL) 被吊销的人员在一段时间内不得驾驶、持有或申请驾驶执照，包括学习驾驶执照 (LDL)",
+      "options": {
+        "A": "6个月",
+        "B": "12个月",
+        "C": "18个月"
+      }
+    },
+    "section-c-c-question-set-3-q18": {
+      "question": "哪一类驾驶执照可免除暂准驾驶执照 (PDL) 要求？",
+      "options": {
+        "A": "E级",
+        "B": "D级",
+        "C": "B级"
+      }
+    },
+    "section-c-c-question-set-3-q19": {
+      "question": "学习驾驶执照 (LDL) 何时可以更改为合格驾驶执照 (CDL)？",
+      "options": {
+        "A": "试用期结束前7天",
+        "B": "试用期结束前 14 天",
+        "C": "2年试用期结束后"
+      }
+    },
+    "section-c-c-question-set-3-q20": {
+      "question": "未获得学习驾驶执照（LDL）的考生是否可以驾驶驾校车辆上路进行实际驾驶？",
+      "options": {
+        "A": "只允许在驾校场地内驾驶",
+        "B": "允许驾驶",
+        "C": "不允许开车"
+      }
+    },
+    "section-c-c-question-set-3-q21": {
+      "question": "学习驾驶执照 (LDL) 持有者驾驶时呼吸中允许的酒精含量为",
+      "options": {
+        "A": "100 毫升呼气中含有 0.20 微克酒精",
+        "B": "100 毫升呼气中含有 0.00 微克酒精",
+        "C": "100 毫升呼气中含有 0.50 微克酒精"
+      }
+    },
+    "section-c-c-question-set-3-q22": {
+      "question": "“P”板有哪些颜色？",
+      "options": {
+        "A": "白色背景和红色P",
+        "B": "红色背景和白色P",
+        "C": "红色背景和黑色P"
+      }
+    },
+    "section-c-c-question-set-3-q23": {
+      "question": "选择禁止停车的区域： i) 公交车站 ii) 消防栓附近 iii) 路口或弯道 iv) 双线道路上",
+      "options": {
+        "A": "一、二、三",
+        "B": "一、二、四",
+        "C": "一、二、三和四"
+      }
+    },
+    "section-c-c-question-set-3-q24": {
+      "question": "KEJARA系统的目标是",
+      "options": {
+        "A": "交通事故发生率增加",
+        "B": "减少交通事故发生率",
+        "C": "降低交通拥堵率"
+      }
+    },
+    "section-c-c-question-set-3-q25": {
+      "question": "参加驾驶考试的申请人必须满足以下要求才可以参加实际考试： i) 参加了 5 个小时的理论课程 ii) 通过了道路法规考试（理论） iii) 参加了 16 个小时的实际培训 iv) 在驾驶机构参加了预考",
+      "options": {
+        "A": "一、二、三和四",
+        "B": "一、二、四",
+        "C": "一、三、四"
+      }
+    },
+    "section-c-c-question-set-4-q1": {
+      "question": "B2 级和 D 级驾驶执照申请人的最低合格年龄为",
+      "options": {
+        "A": "分别年满16岁及17岁或以上",
+        "B": "分别年满15岁及16岁或以上",
+        "C": "18岁及以上"
+      }
+    },
+    "section-c-c-question-set-4-q2": {
+      "question": "暂准驾驶执照的有效期",
+      "options": {
+        "A": "3年",
+        "B": "1年",
+        "C": "2年"
+      }
+    },
+    "section-c-c-question-set-4-q3": {
+      "question": "选择有关 KEJARA 系统的正确说法",
+      "options": {
+        "A": "旨在降低驾驶员的道路安全意识",
+        "B": "旨在减少道路事故数量",
+        "C": "成立是为了增加道路事故数量"
+      }
+    },
+    "section-c-c-question-set-4-q4": {
+      "question": "选择学习驾驶执照 (LDL) 上的正确声明",
+      "options": {
+        "A": "每 3 或 6 个月可更新一次",
+        "B": "每 2 或 4 个月更新一次",
+        "C": "每 6 或 9 个月可更新一次"
+      }
+    },
+    "section-c-c-question-set-4-q5": {
+      "question": "申请暂准驾驶执照的第二部及第三部测试成绩的有效期是多少年？",
+      "options": {
+        "A": "通过测试后6个月",
+        "B": "通过测试后2年",
+        "C": "通过测试后1年"
+      }
+    },
+    "section-c-c-question-set-4-q6": {
+      "question": "以下是《1987 年道路运输法》规定的犯罪行为，除了",
+      "options": {
+        "A": "驾驶时系好安全带",
+        "B": "驾驶超过限速",
+        "C": "未系安全带驾驶"
+      }
+    },
+    "section-c-c-question-set-4-q7": {
+      "question": "应系安全带",
+      "options": {
+        "A": "仅在高速行驶时",
+        "B": "始终作为驾驶员和乘客",
+        "C": "松松地放在你的腿上"
+      }
+    },
+    "section-c-c-question-set-4-q8": {
+      "question": "下列哪项违规行为会导致驾驶员扣分？",
+      "options": {
+        "A": "小心谨慎地驾驶",
+        "B": "开车时使用导航应用程序",
+        "C": "不遵守红灯信号"
+      }
+    }
+  }
+}

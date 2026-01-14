@@ -1,0 +1,32 @@
+.language-toggle-icon {
+  background: none;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #1677ff;
+  transition: all 0.2s;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.language-toggle-icon:hover {
+  background-color: #f0f0f0;
+  color: #0958d9;
+}
+
+.language-toggle-icon.active {
+  color: #1677ff;
+  background-color: #e6f4ff;
+}
+
+.language-toggle-icon:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.language-toggle-icon:disabled:hover {
+  background-color: transparent;
+}

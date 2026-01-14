@@ -1,0 +1,96 @@
+.exam-result {
+  padding: 20px 16px;
+  min-height: 100%;
+  background: #fff;
+}
+
+.result-header {
+  text-align: center;
+  padding: 24px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.result-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  color: #262626;
+}
+
+.result-header.passed h2 {
+  color: #52c41a;
+}
+
+.result-header.failed h2 {
+  color: #ff4d4f;
+}
+
+.score {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  color: #1677ff;
+}
+
+.score-detail {
+  font-size: 16px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+.result-stats {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.stat-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #8c8c8c;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.stat-item.correct .stat-value {
+  color: #52c41a;
+}
+
+.stat-item.wrong .stat-value {
+  color: #ff4d4f;
+}
+
+.wrong-answers {
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.wrong-answers h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #262626;
+  margin: 0 0 16px 0;
+}
+
+.wrong-answers .adm-button {
+  width: 100%;
+}
+
+.result-actions {
+  padding: 20px 0 0 0;
+}
+
+.result-actions .adm-button {
+  width: 100%;
+}

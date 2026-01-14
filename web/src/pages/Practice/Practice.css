@@ -1,0 +1,108 @@
+.practice-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.practice-content {
+  flex: 1;
+  padding: 16px;
+  padding-bottom: 96px; /* 为底部按钮(约48px)和TabBar(48px)留出空间 */
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.question-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #666;
+  gap: 4px;
+}
+
+.question-number-link {
+  cursor: pointer;
+  color: #1677ff;
+  text-decoration: underline;
+  user-select: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.question-number-link:active {
+  background-color: #f0f0f0;
+}
+
+.jump-dialog-content {
+  padding: 0;
+  padding-bottom: 8px;
+}
+
+.jump-dialog-label {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  font-weight: 500;
+}
+
+.jump-input-error {
+  border-color: #ff4d4f !important;
+  background-color: #fff2f0 !important;
+}
+
+.jump-input-error-message {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #ff4d4f;
+  text-align: center;
+}
+
+.options-container {
+  margin: 16px 0;
+}
+
+.result-message {
+  padding: 12px 0;
+  margin: 16px 0;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.result-message.correct {
+  background-color: #f6ffed;
+  color: #52c41a;
+  border: 1px solid #b7eb8f;
+}
+
+.result-message.wrong {
+  background-color: #fff2f0;
+  color: #ff4d4f;
+  border: 1px solid #ffccc7;
+}
+
+.navigation-buttons {
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px;
+  background-color: #fff;
+  border-top: 1px solid #f0f0f0;
+  position: fixed;
+  bottom: 48px; /* 在TabBar上方，TabBar高度为48px */
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+  margin: 0; /* 确保没有额外的margin */
+  border-bottom: none; /* 移除底部边框，避免视觉上的间隙 */
+}
+
+.navigation-buttons button {
+  flex: 1;
+}

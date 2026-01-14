@@ -1,0 +1,19 @@
+# Python依赖包
+# 第一阶段：截图采集（capture.py）
+# 使用标准库，无需额外依赖
+
+# 第二阶段：OCR提取（ocr_extract.py）
+paddleocr>=2.7.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# 第三阶段：数据清洗（data_clean.py）
+# 使用标准库，无需额外依赖
+
+# 第四阶段：网页爬虫（web_scraper.py）
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+selenium>=4.15.0
+webdriver-manager>=4.0.0
