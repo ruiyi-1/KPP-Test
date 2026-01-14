@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Button, NavBar, Dialog, Input } from 'antd-mobile';
 import { GlobalOutline, EyeInvisibleOutline } from 'antd-mobile-icons';
 import { useTranslation } from 'react-i18next';
@@ -11,15 +11,41 @@ import './Practice.css';
 
 export const Practice = () => {
   const { t } = useTranslation();
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const questions = getAllQuestions();
+  
+  // 从 localStorage 读取上次的题号
+  const getInitialIndex = () => {
+    try {
+      const saved = localStorage.getItem('lastPracticeIndex');
+      if (saved) {
+        const savedIndex = JSON.parse(saved);
+        if (typeof savedIndex === 'number' && savedIndex >= 0 && savedIndex < questions.length) {
+          return savedIndex;
+        }
+      }
+    } catch (error) {
+      logger.error('[Practice] Error reading lastPracticeIndex from localStorage:', error);
+    }
+    return 0;
+  };
+
+  const [currentIndex, setCurrentIndex] = useState(getInitialIndex);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [showTranslation, setShowTranslation] = useLocalStorage('defaultShowTranslation', false);
   const [showJumpDialog, setShowJumpDialog] = useState(false);
   const [jumpInputValue, setJumpInputValue] = useState('');
   
-  const questions = getAllQuestions();
   const currentQuestion = questions[currentIndex];
+
+  // 当题号变化时，保存到 localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem('lastPracticeIndex', JSON.stringify(currentIndex));
+    } catch (error) {
+      logger.error('[Practice] Error saving lastPracticeIndex to localStorage:', error);
+    }
+  }, [currentIndex]);
 
   // 调试日志
   logger.log('[Practice] Component state:', {
