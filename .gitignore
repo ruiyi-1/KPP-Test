@@ -11,10 +11,15 @@ ENV/
 
 # 截图和图片（可能很大，不提交到git）
 screenshots/
-images/
+/images/
 *.png
 *.jpg
 *.jpeg
+# 但允许 docs/images/ 目录（用于文档中的图片）
+!docs/images/
+!docs/images/*.png
+!docs/images/*.jpg
+!docs/images/*.jpeg
 
 # 进度文件（包含临时状态）
 scripts/progress.json

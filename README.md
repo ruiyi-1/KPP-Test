@@ -186,7 +186,17 @@ npm run build
 
 [![打赏](https://img.shields.io/badge/打赏-支持项目-ff6b6b?style=flat-square)](https://qr.alipay.com/fkx10871ew38ukfqghwjx86)
 
-点击上方链接或扫描支付宝二维码进行打赏，感谢你的支持！
+<div align="center">
+
+### 💰 支付宝打赏
+
+[![支付宝二维码](./docs/images/alipay-qrcode.png)](https://qr.alipay.com/fkx10871ew38ukfqghwjx86)
+
+**扫描二维码或 [点击这里](https://qr.alipay.com/fkx10871ew38ukfqghwjx86) 进行打赏**
+
+感谢你的支持！🙏
+
+</div>
 
 ## 许可证
 
