@@ -10,15 +10,23 @@
   padding: 10px;
 }
 
-.settings-card {
-  margin-bottom: 8px;
-}
 
 /* 模块标题样式（Card title） */
 .settings-card .adm-card-header-title {
   font-size: 15px !important;
   font-weight: 600 !important;
   color: #000 !important;
+}
+
+/* 减少 Card header 和 body 之间的间距 */
+.settings-card .adm-card-header {
+  padding-bottom: 8px !important;
+}
+
+/* 减少 Card body 的上方 padding，缩小分类标题和子选项之间的间距 */
+.settings-card .adm-card-body {
+  padding-top: 0 !important;
+  padding-bottom: 4px !important;
 }
 
 /* 选项标题样式（List.Item prefix） */
