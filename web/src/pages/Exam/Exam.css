@@ -35,7 +35,7 @@
 }
 
 .exam-progress {
-  margin-top: 8px;
+  margin-top: 0;
   margin-bottom: 16px;
 }
 
@@ -88,10 +88,9 @@
 
 .exam-content-scrollable {
   flex: 1;
-  padding: 20px 16px;
+  padding: 0 16px 80px 16px; /* 去掉顶部 padding，保留底部为导航按钮留空间 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  padding-bottom: 80px; /* 为底部导航按钮留出空间 */
 }
 
 .exam-navigation {

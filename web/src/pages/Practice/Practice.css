@@ -15,8 +15,7 @@
 
 .practice-content {
   flex: 1;
-  padding: 16px;
-  padding-bottom: 80px; /* 为底部导航按钮留出空间 */
+  padding: 0 16px 80px 16px; /* 去掉顶部 padding，保留底部为导航按钮留空间 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
