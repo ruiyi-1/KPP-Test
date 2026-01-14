@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button, NavBar, Dialog, Input } from 'antd-mobile';
-import { FileOutline, GlobalOutline, EyeInvisibleOutline } from 'antd-mobile-icons';
+import { GlobalOutline, EyeInvisibleOutline } from 'antd-mobile-icons';
 import { useTranslation } from 'react-i18next';
 import { QuestionCard } from '../../components/QuestionCard/QuestionCard';
 import { OptionItem } from '../../components/OptionItem/OptionItem';
@@ -115,9 +115,12 @@ export const Practice = () => {
       <NavBar 
         back={null}
         left={
-          <div className="nav-bar-icon" onClick={handleJumpDialogOpen}>
-            <FileOutline fontSize={20} />
-          </div>
+          <span 
+            className="nav-bar-question-number"
+            onClick={handleJumpDialogOpen}
+          >
+            {t('practice.questionNumber')} {currentIndex + 1} {t('practice.of')} {questions.length}
+          </span>
         }
         right={
           <div 
@@ -136,14 +139,6 @@ export const Practice = () => {
         {t('practice.title')}
       </NavBar>
       <div className="practice-content">
-        <div className="question-info">
-          <span 
-            className="question-number-link"
-            onClick={handleJumpDialogOpen}
-          >
-            {t('practice.questionNumber')} {currentIndex + 1} {t('practice.of')} {questions.length}
-          </span>
-        </div>
         <Dialog
           visible={showJumpDialog}
           content={

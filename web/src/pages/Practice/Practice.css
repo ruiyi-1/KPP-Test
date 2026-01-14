@@ -30,6 +30,20 @@
   text-align: center;
 }
 
+.nav-bar-question-number {
+  font-size: 14px;
+  color: #1677ff;
+  cursor: pointer;
+  user-select: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.nav-bar-question-number:active {
+  background-color: #f0f0f0;
+}
+
 .nav-bar-icon {
   display: flex;
   align-items: center;
