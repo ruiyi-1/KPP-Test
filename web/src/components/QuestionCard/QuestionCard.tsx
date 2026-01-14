@@ -100,8 +100,10 @@ export const QuestionCard = ({ question, showTranslation }: QuestionCardProps) =
   return (
     <Card className="question-card">
       <div className="question-content">
-        <div className="question-text">
-          <div className="question-main">{question.question}</div>
+        <div className="question-header">
+          <div className="question-text">
+            <div className="question-main">{question.question}</div>
+          </div>
           {showTranslation && questionTranslation && (
             <div className="question-translation">{questionTranslation}</div>
           )}

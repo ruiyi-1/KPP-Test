@@ -7,7 +7,7 @@
 
 .practice-content {
   flex: 1;
-  padding: 16px;
+  padding: 8px 16px;
   padding-bottom: 96px; /* 为底部按钮(约48px)和TabBar(48px)留出空间 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -16,8 +16,8 @@
 .question-info {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 16px;
+  justify-content: space-between;
+  margin-bottom: 8px;
   font-size: 14px;
   color: #666;
   gap: 4px;

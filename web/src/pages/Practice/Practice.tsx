@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Button, NavBar, Dialog, Input } from 'antd-mobile';
 import { useTranslation } from 'react-i18next';
 import { QuestionCard } from '../../components/QuestionCard/QuestionCard';
@@ -11,15 +11,29 @@ import './Practice.css';
 
 export const Practice = () => {
   const { t } = useTranslation();
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const questions = getAllQuestions();
+  const [lastPracticeIndex, setLastPracticeIndex] = useLocalStorage('lastPracticeIndex', 0);
+  const [currentIndex, setCurrentIndex] = useState(lastPracticeIndex);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [showTranslation, setShowTranslation] = useLocalStorage('defaultShowTranslation', false);
   const [showJumpDialog, setShowJumpDialog] = useState(false);
   const [jumpInputValue, setJumpInputValue] = useState('');
+  const contentRef = useRef<HTMLDivElement>(null);
   
-  const questions = getAllQuestions();
   const currentQuestion = questions[currentIndex];
+
+  // 恢复上次练习的题号
+  useEffect(() => {
+    if (lastPracticeIndex >= 0 && lastPracticeIndex < questions.length) {
+      setCurrentIndex(lastPracticeIndex);
+    }
+  }, []);
+
+  // 保存当前题号
+  useEffect(() => {
+    setLastPracticeIndex(currentIndex);
+  }, [currentIndex, setLastPracticeIndex]);
 
   // 调试日志
   logger.log('[Practice] Component state:', {
@@ -41,11 +55,19 @@ export const Practice = () => {
     setShowResult(true);
   };
 
+  // 滚动到顶部
+  const scrollToTop = () => {
+    if (contentRef.current) {
+      contentRef.current.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
   const handleNext = () => {
     if (currentIndex < questions.length - 1) {
       setCurrentIndex(currentIndex + 1);
       setSelectedAnswer(null);
       setShowResult(false);
+      scrollToTop();
     }
   };
 
@@ -54,6 +76,7 @@ export const Practice = () => {
       setCurrentIndex(currentIndex - 1);
       setSelectedAnswer(null);
       setShowResult(false);
+      scrollToTop();
     }
   };
 
@@ -65,6 +88,7 @@ export const Practice = () => {
       setShowResult(false);
       setShowJumpDialog(false);
       setJumpInputValue('');
+      scrollToTop();
     }
   };
 
@@ -113,7 +137,7 @@ export const Practice = () => {
   return (
     <div className="practice-page">
       <NavBar back={null}>{t('practice.title')}</NavBar>
-      <div className="practice-content">
+      <div className="practice-content" ref={contentRef}>
         <div className="question-info">
           <span 
             className="question-number-link"
