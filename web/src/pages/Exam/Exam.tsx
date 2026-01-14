@@ -291,7 +291,6 @@ export const Exam = forwardRef<ExamHandle>((_, ref) => {
                           showResult={true}
                           showTranslation={true}
                           questionId={wrong.question.id}
-                          questionText={wrong.question.question}
                           questionTranslationKey={wrong.question.translationKey}
                           onClick={() => {}}
                         />
@@ -385,7 +384,6 @@ export const Exam = forwardRef<ExamHandle>((_, ref) => {
                 showResult={false}
                 showTranslation={false}
                 questionId={currentQuestion.id}
-                questionText={currentQuestion.question}
                 questionTranslationKey={currentQuestion.translationKey}
                 onClick={() => handleOptionClick(option.label)}
               />

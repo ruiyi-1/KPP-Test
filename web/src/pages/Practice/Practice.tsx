@@ -188,7 +188,6 @@ export const Practice = () => {
               showResult={showResult}
               showTranslation={showTranslation}
               questionId={currentQuestion.id}
-              questionText={currentQuestion.question}
               questionTranslationKey={currentQuestion.translationKey}
               onClick={() => handleOptionClick(option.label)}
             />

@@ -11,7 +11,6 @@ interface OptionItemProps {
   showResult: boolean;
   showTranslation?: boolean;
   questionId?: string;
-  questionText?: string;
   questionTranslationKey?: string; // 题目的翻译key
   onClick: () => void;
 }
@@ -23,7 +22,6 @@ export const OptionItem = ({
   showResult, 
   showTranslation = false,
   questionId,
-  questionText,
   questionTranslationKey,
   onClick 
 }: OptionItemProps) => {

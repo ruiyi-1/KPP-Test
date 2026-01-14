@@ -1,4 +1,4 @@
-import { Card, Button } from 'antd-mobile';
+import { Button } from 'antd-mobile';
 import { ExamResult as ExamResultType } from '../../types';
 import { useTranslation } from 'react-i18next';
 import './ExamResult.css';

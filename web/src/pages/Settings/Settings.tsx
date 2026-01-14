@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { NavBar, List, Card, Switch, Picker } from 'antd-mobile';
 import { useTranslation } from 'react-i18next';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
