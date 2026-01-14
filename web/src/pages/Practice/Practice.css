@@ -30,7 +30,10 @@
 
 .practice-page .adm-nav-bar .adm-nav-bar-left,
 .practice-page .adm-nav-bar .adm-nav-bar-right {
-  flex: 0 0 auto;
+  flex: 0 0 60px; /* 设置固定宽度，保持一致 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .practice-page .adm-nav-bar .adm-nav-bar-title {
@@ -46,6 +49,8 @@
   padding: 4px 8px;
   border-radius: 4px;
   transition: background-color 0.2s;
+  text-align: center;
+  width: 100%;
 }
 
 .nav-bar-question-number:active {
@@ -60,6 +65,7 @@
   cursor: pointer;
   color: #1677ff;
   transition: opacity 0.2s;
+  width: 100%;
 }
 
 .nav-bar-icon:active {
