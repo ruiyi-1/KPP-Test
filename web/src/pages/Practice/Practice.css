@@ -5,10 +5,18 @@
   position: relative;
 }
 
+.practice-content-wrapper {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 .practice-content {
   flex: 1;
   padding: 16px;
-  padding-bottom: 96px; /* 为底部按钮(约48px)和TabBar(48px)留出空间 */
+  padding-bottom: 80px; /* 为底部导航按钮留出空间 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -138,14 +146,12 @@
   padding: 12px 16px;
   background-color: #fff;
   border-top: 1px solid #f0f0f0;
-  position: fixed;
-  bottom: 48px; /* 在TabBar上方，TabBar高度为48px */
+  position: absolute;
+  bottom: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 10;
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
-  margin: 0; /* 确保没有额外的margin */
-  border-bottom: none; /* 移除底部边框，避免视觉上的间隙 */
 }
 
 .navigation-buttons button {

@@ -138,8 +138,9 @@ export const Practice = () => {
       >
         {t('practice.title')}
       </NavBar>
-      <div className="practice-content">
-        <Dialog
+      <div className="practice-content-wrapper">
+        <div className="practice-content">
+          <Dialog
           visible={showJumpDialog}
           content={
             <div className="jump-dialog-content">
@@ -209,8 +210,8 @@ export const Practice = () => {
             {isCorrect ? t('practice.correct') : t('practice.wrong') + ' ' + currentQuestion.correctAnswer}
           </div>
         )}
-      </div>
-      <div className="navigation-buttons">
+        </div>
+        <div className="navigation-buttons">
         <Button
           disabled={currentIndex === 0}
           onClick={handlePrevious}
@@ -224,6 +225,7 @@ export const Practice = () => {
         >
           {t('practice.next')}
         </Button>
+        </div>
       </div>
     </div>
   );
