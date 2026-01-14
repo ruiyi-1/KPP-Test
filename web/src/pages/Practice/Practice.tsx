@@ -119,7 +119,7 @@ export const Practice = () => {
             className="nav-bar-question-number"
             onClick={handleJumpDialogOpen}
           >
-            {t('practice.questionNumber')} {currentIndex + 1} {t('practice.of')} {questions.length}
+            {currentIndex + 1} {t('practice.of')} {questions.length}
           </span>
         }
         right={
