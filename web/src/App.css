@@ -5,7 +5,7 @@
 }
 
 html, body {
-  height: 100%;
+  height: 100dvh; /* 使用动态视口高度，适配移动浏览器 */
   overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -15,14 +15,15 @@ html, body {
 }
 
 #root {
-  height: 100%;
+  height: 100dvh; /* 使用动态视口高度 */
   overflow: hidden;
 }
 
 .app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100dvh; /* 使用动态视口高度，适配移动浏览器 */
+  min-height: 100dvh;
   overflow: hidden;
 }
 
@@ -30,6 +31,8 @@ html, body {
   flex: 1;
   overflow: hidden;
   position: relative;
+  /* 确保内容区域不会溢出到 TabBar 下方 */
+  min-height: 0;
 }
 
 .content > div {
@@ -116,6 +119,8 @@ html, body {
   position: relative;
   z-index: 100;
   background-color: var(--adm-color-background, #ffffff);
+  /* 确保 TabBar 固定在底部，不被遮挡 */
+  flex-shrink: 0;
 }
 
 .adm-tab-bar-item {
