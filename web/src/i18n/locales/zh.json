@@ -107,7 +107,7 @@
     "remove": "移除",
     "startPractice": "开始练习",
     "clearAll": "清空全部",
-    "clearConfirm": "确定要清空 {count} 道错题吗？"
+    "clearConfirm": "确定要清空 {{count}} 道错题吗？"
   },
   "questions": {
     "_comment": "翻译使用translationKey作为key，格式：questions.{translationKey}.question 和 questions.{translationKey}.options.{A/B/C}",

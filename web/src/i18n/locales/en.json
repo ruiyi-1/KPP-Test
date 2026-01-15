@@ -107,7 +107,7 @@
     "remove": "Remove",
     "startPractice": "Start Practice",
     "clearAll": "Clear All",
-    "clearConfirm": "Are you sure you want to clear {count} wrong questions?"
+    "clearConfirm": "Are you sure you want to clear {{count}} wrong questions?"
   },
   "questions": {
     "_comment": "Translations use translationKey as key, format: questions.{translationKey}.question and questions.{translationKey}.options.{A/B/C}",
