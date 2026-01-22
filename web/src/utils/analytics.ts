@@ -67,10 +67,18 @@ export const trackEvent = (
     [key: string]: string | number | boolean;
   }
 ) => {
-  if (!isAnalyticsEnabled()) return;
+  if (!isAnalyticsEnabled()) {
+    console.warn('[Analytics] Analytics not enabled, event not sent:', eventName);
+    return;
+  }
 
-  window.gtag('event', eventName, eventParams);
-  console.log('[Analytics] Event tracked:', eventName, eventParams);
+  try {
+    window.gtag('event', eventName, eventParams);
+    console.log('[Analytics] Event tracked:', eventName, eventParams);
+    console.log('[Analytics] Check Network tab for "collect" requests to verify');
+  } catch (error) {
+    console.error('[Analytics] Error tracking event:', error);
+  }
 };
 
 // 跟踪用户操作
