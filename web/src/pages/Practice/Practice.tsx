@@ -7,6 +7,7 @@ import { OptionItem } from '../../components/OptionItem/OptionItem';
 import { getAllQuestions, addWrongQuestion, isQuestionInWrongSet, getQuestionById } from '../../utils';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { logger } from '../../utils/logger';
+import { trackPractice, trackPageView } from '../../utils/analytics';
 import './Practice.css';
 
 interface PracticeProps {
@@ -58,6 +59,14 @@ export const Practice = ({ wrongQuestionIds }: PracticeProps = { wrongQuestionId
     }
   }, [currentQuestion]);
 
+  // 初始化时跟踪页面访问
+  useEffect(() => {
+    trackPageView('/practice', 'Practice');
+    if (wrongQuestionIds && wrongQuestionIds.length > 0) {
+      trackPractice.start();
+    }
+  }, []);
+
   // 当题号变化时，保存到 localStorage（只在非错题集模式下保存）
   useEffect(() => {
     if (!wrongQuestionIds || wrongQuestionIds.length === 0) {
@@ -89,12 +98,18 @@ export const Practice = ({ wrongQuestionIds }: PracticeProps = { wrongQuestionId
     setShowResult(true);
     
     const isWrong = label !== currentQuestion.correctAnswer;
+    const isCorrect = !isWrong;
+    
+    // 跟踪提交答案
+    trackPractice.submit(isCorrect);
     
     // 如果答错了且开启了自动加入错题集，自动加入
     if (isWrong && autoAddToWrongSet) {
       addWrongQuestion(currentQuestion, label, currentQuestion.correctAnswer || '');
       // 更新是否在错题集中的状态
       setIsInWrongSet(true);
+      // 跟踪加入错题集
+      trackPractice.addToWrongSet(currentQuestion.id);
     }
   };
 
@@ -103,6 +118,8 @@ export const Practice = ({ wrongQuestionIds }: PracticeProps = { wrongQuestionId
       addWrongQuestion(currentQuestion, selectedAnswer, currentQuestion.correctAnswer || '');
       // 更新是否在错题集中的状态
       setIsInWrongSet(true);
+      // 跟踪加入错题集
+      trackPractice.addToWrongSet(currentQuestion.id);
     }
   };
 
@@ -111,6 +128,7 @@ export const Practice = ({ wrongQuestionIds }: PracticeProps = { wrongQuestionId
       setCurrentIndex(currentIndex + 1);
       setSelectedAnswer(null);
       setShowResult(false);
+      trackPractice.next(currentIndex + 2);
     }
   };
 
@@ -119,6 +137,7 @@ export const Practice = ({ wrongQuestionIds }: PracticeProps = { wrongQuestionId
       setCurrentIndex(currentIndex - 1);
       setSelectedAnswer(null);
       setShowResult(false);
+      trackPractice.previous(currentIndex);
     }
   };
 
@@ -190,7 +209,10 @@ export const Practice = ({ wrongQuestionIds }: PracticeProps = { wrongQuestionId
         right={
           <div 
             className="nav-bar-icon"
-            onClick={() => setShowTranslation(!showTranslation)}
+            onClick={() => {
+              setShowTranslation(!showTranslation);
+              trackPractice.toggleTranslation(!showTranslation);
+            }}
             title={showTranslation ? t('practice.hideTranslation') : t('practice.showTranslation')}
           >
             {showTranslation ? (

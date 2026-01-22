@@ -7,6 +7,7 @@ import { WrongQuestion } from '../../types';
 import { QuestionCard } from '../../components/QuestionCard/QuestionCard';
 import { OptionItem } from '../../components/OptionItem/OptionItem';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
+import { trackWrongQuestions, trackPageView } from '../../utils/analytics';
 import './WrongQuestions.css';
 
 interface WrongQuestionsProps {
@@ -24,7 +25,12 @@ export const WrongQuestions = ({ onBack, onStartPractice }: WrongQuestionsProps)
   // 加载错题列表
   useEffect(() => {
     const loadWrongQuestions = () => {
-      setWrongQuestions(getWrongQuestions());
+      const questions = getWrongQuestions();
+      setWrongQuestions(questions);
+      // 跟踪错题集查看
+      if (questions.length > 0) {
+        trackWrongQuestions.view(questions.length);
+      }
     };
     loadWrongQuestions();
 
@@ -48,22 +54,31 @@ export const WrongQuestions = ({ onBack, onStartPractice }: WrongQuestionsProps)
   const handleRemoveQuestion = (questionId: string) => {
     removeWrongQuestion(questionId);
     setWrongQuestions(getWrongQuestions());
+    trackWrongQuestions.remove(questionId);
     if (selectedQuestion?.questionId === questionId) {
       setSelectedQuestion(null);
     }
   };
 
   const handleClearAll = () => {
+    const count = wrongQuestions.length;
     clearWrongQuestions();
     setWrongQuestions([]);
     setSelectedQuestion(null);
     setShowClearDialog(false);
+    trackWrongQuestions.clearAll(count);
   };
 
   const handleStartPractice = () => {
     const questionIds = wrongQuestions.map(wq => wq.questionId);
+    trackWrongQuestions.startPractice(questionIds.length);
     onStartPractice(questionIds);
   };
+
+  // 初始化时跟踪页面访问
+  useEffect(() => {
+    trackPageView('/wrong-questions', 'Wrong Questions');
+  }, []);
 
   if (selectedQuestion) {
     // 显示单个错题的详细内容

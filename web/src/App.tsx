@@ -6,6 +6,7 @@ import { Practice } from './pages/Practice/Practice';
 import { Exam, ExamHandle } from './pages/Exam/Exam';
 import { Settings } from './pages/Settings/Settings';
 import { WrongQuestions } from './pages/WrongQuestions/WrongQuestions';
+import { trackPageView, trackUserAction } from './utils/analytics';
 import './App.css';
 
 function App() {
@@ -57,6 +58,9 @@ function App() {
     setActiveTab(key);
     setShowWrongQuestions(false);
     setPracticeWrongQuestionIds(undefined);
+    // 跟踪 tab 切换
+    trackPageView(`/${key}`, key);
+    trackUserAction('tab_switch', 'navigation', key);
   };
 
   const handleWrongQuestionsBack = () => {

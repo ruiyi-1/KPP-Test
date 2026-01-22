@@ -3,6 +3,7 @@ import { NavBar, List, Card, Switch, Picker } from 'antd-mobile';
 import { useTranslation } from 'react-i18next';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { getWrongQuestions } from '../../utils';
+import { trackSettings, trackPageView } from '../../utils/analytics';
 import './Settings.css';
 
 export const Settings = () => {
@@ -39,6 +40,11 @@ export const Settings = () => {
     };
   }, []);
 
+  // 初始化时跟踪页面访问
+  useEffect(() => {
+    trackPageView('/settings', 'Settings');
+  }, []);
+
   // 使用 useRef 保存之前的界面语言
   const prevLanguageRef = useRef(i18n.language);
 
@@ -52,6 +58,9 @@ export const Settings = () => {
     
     // 更新 i18n 语言
     i18n.changeLanguage(currentLanguage);
+    
+    // 跟踪语言切换
+    trackSettings.changeLanguage(currentLanguage);
     
     // 更新之前的界面语言
     prevLanguageRef.current = currentLanguage;
@@ -119,7 +128,10 @@ export const Settings = () => {
               extra={
                 <Switch
                   checked={defaultShowTranslation}
-                  onChange={(checked) => setDefaultShowTranslation(checked)}
+                  onChange={(checked) => {
+                    setDefaultShowTranslation(checked);
+                    trackSettings.toggleTranslation(checked);
+                  }}
                 />
               }
             />
@@ -158,8 +170,10 @@ export const Settings = () => {
                 if (val[0]) {
                   const newCount = parseInt(val[0] as string, 10);
                   setExamQuestionCount(newCount);
+                  trackSettings.changeExamQuestionCount(newCount);
                   if (passingScore > newCount) {
                     setPassingScore(newCount);
+                    trackSettings.changePassingScore(newCount);
                   }
                 }
               }}
@@ -180,7 +194,9 @@ export const Settings = () => {
               value={[passingScore.toString()]}
               onConfirm={(val) => {
                 if (val[0]) {
-                  setPassingScore(parseInt(val[0] as string, 10));
+                  const newScore = parseInt(val[0] as string, 10);
+                  setPassingScore(newScore);
+                  trackSettings.changePassingScore(newScore);
                 }
               }}
             >
@@ -200,7 +216,9 @@ export const Settings = () => {
               value={[examDuration.toString()]}
               onConfirm={(val) => {
                 if (val[0]) {
-                  setExamDuration(parseInt(val[0] as string, 10));
+                  const newDuration = parseInt(val[0] as string, 10);
+                  setExamDuration(newDuration);
+                  trackSettings.changeExamDuration(newDuration);
                 }
               }}
             >

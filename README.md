@@ -13,6 +13,7 @@
 - ✅ **移动端优化**：H5 适配的移动端界面（React + Ant Design Mobile）
 - ✅ **数据完整**：450 道题目，100% 答案覆盖率
 - ✅ **图片支持**：支持题目和选项中的图片显示
+- ✅ **访问统计**：集成 Google Analytics 4，支持用户数量、地区和使用量统计
 
 ## 技术栈
 
@@ -103,6 +104,49 @@ npm run build
 npm run preview
 ```
 
+#### 配置访问统计（可选）
+
+应用已集成 Google Analytics 4，可以统计用户数量、地区分布和使用量。要启用统计功能：
+
+1. **创建 Google Analytics 账户**
+   - 访问 https://analytics.google.com/
+   - 创建新的 GA4 属性（如果还没有）
+
+2. **获取 Measurement ID**
+   - 在"管理" -> "数据流" -> "网站"中找到 Measurement ID
+   - 格式：`G-XXXXXXXXXX`
+
+3. **配置环境变量**
+
+   **本地开发环境：**
+   - 在 `web` 目录下创建 `.env` 文件
+   - 添加：`VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX`
+   - 注意：`.env` 文件不应提交到 Git
+
+   **GitHub Pages 部署：**
+   - 在 GitHub 仓库中，进入 **Settings** -> **Secrets and variables** -> **Actions**
+   - 点击 **New repository secret**
+   - Name: `VITE_GA_MEASUREMENT_ID`
+   - Value: 你的 Measurement ID（如 `G-XXXXXXXXXX`）
+   - 点击 **Add secret**
+   - 下次推送代码时，GitHub Actions 会自动使用这个 secret 进行构建
+
+4. **重新构建**
+   ```bash
+   npm run build
+   ```
+
+**统计功能包括：**
+- 页面访问统计（练习、考试、设置等页面）
+- 用户行为跟踪（开始练习、提交答案、开始考试等）
+- 地区分布统计（通过 GA 自动获取）
+- 使用量统计（练习次数、考试次数等）
+
+**隐私说明：**
+- 已启用 IP 匿名化，保护用户隐私
+- 不收集个人身份信息
+- 仅用于了解应用使用情况
+
 #### 数据抓取（可选）
 
 如果需要重新抓取题目数据：
@@ -161,7 +205,28 @@ python scripts/scrape_all_sections.py
 
 ## 部署
 
-项目支持部署到 GitHub Pages 或其他静态托管服务：
+### GitHub Pages 自动部署
+
+项目已配置 GitHub Actions，支持自动部署到 GitHub Pages。
+
+**快速配置：**
+
+1. **启用 GitHub Pages**
+   - 仓库 **Settings** -> **Pages** -> Source 选择 **GitHub Actions**
+
+2. **配置统计功能（可选）**
+   - 仓库 **Settings** -> **Secrets and variables** -> **Actions**
+   - 添加 Secret：`VITE_GA_MEASUREMENT_ID` = `G-XXXXXXXXXX`
+
+3. **推送代码**
+   - 推送到 `main` 分支即可自动部署
+   - 访问：`https://<你的用户名>.github.io/KPP-Test/`
+
+**详细配置说明：** 请查看 [GitHub Pages 部署指南](./docs/GITHUB_PAGES_SETUP.md)
+
+### 其他静态托管服务
+
+项目支持部署到其他静态托管服务：
 
 ```bash
 cd web

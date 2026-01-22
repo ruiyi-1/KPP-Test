@@ -7,6 +7,7 @@ import { ExamResult } from '../../components/ExamResult/ExamResult';
 import { Question, ExamResult as ExamResultType, WrongAnswer } from '../../types';
 import { getRandomQuestions } from '../../utils';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
+import { trackExam, trackPageView } from '../../utils/analytics';
 import './Exam.css';
 
 export interface ExamHandle {
@@ -81,6 +82,8 @@ export const Exam = forwardRef<ExamHandle>((_, ref) => {
     totalPausedTimeRef.current = 0;
     pauseStartTimeRef.current = null;
     wasTabSwitchedRef.current = false;
+    // 跟踪考试开始
+    trackExam.start(examQuestionCount, examDuration);
   };
 
   const handleSubmit = useCallback(() => {
@@ -118,7 +121,9 @@ export const Exam = forwardRef<ExamHandle>((_, ref) => {
       clearInterval(timerRef.current);
       timerRef.current = null;
     }
-  }, [questions, answers]);
+    // 跟踪考试提交
+    trackExam.submit(score, passed, questions.length);
+  }, [questions, answers, passingScore]);
 
   // 倒计时逻辑
   useEffect(() => {
@@ -153,6 +158,7 @@ export const Exam = forwardRef<ExamHandle>((_, ref) => {
         clearInterval(timerRef.current);
         timerRef.current = null;
       }
+      trackExam.timeUp();
       handleSubmit();
     }
   }, [timeRemaining, examStarted, examFinished, handleSubmit]);
@@ -192,6 +198,7 @@ export const Exam = forwardRef<ExamHandle>((_, ref) => {
     setShowPauseDialog(false);
     // 确认暂停，清除tab切换标记，保持暂停状态
     wasTabSwitchedRef.current = false;
+    trackExam.pause();
   };
 
   const handleExitExam = () => {
@@ -212,6 +219,8 @@ export const Exam = forwardRef<ExamHandle>((_, ref) => {
       clearInterval(timerRef.current);
       timerRef.current = null;
     }
+    // 跟踪退出考试
+    trackExam.exit();
   };
 
   const handleResumeExam = () => {
@@ -223,6 +232,8 @@ export const Exam = forwardRef<ExamHandle>((_, ref) => {
       pauseStartTimeRef.current = null;
     }
     wasTabSwitchedRef.current = false; // 清除tab切换标记
+    // 跟踪恢复考试
+    trackExam.resume();
   };
 
   const handleOptionClick = (label: string) => {
@@ -241,6 +252,13 @@ export const Exam = forwardRef<ExamHandle>((_, ref) => {
       setCurrentIndex(currentIndex - 1);
     }
   };
+
+  // 初始化时跟踪页面访问
+  useEffect(() => {
+    if (!examStarted) {
+      trackPageView('/exam', 'Exam');
+    }
+  }, [examStarted]);
 
   if (!examStarted) {
     return (
