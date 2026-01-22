@@ -16,7 +16,23 @@ const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID || '';
 
 // 检查是否启用统计
 const isAnalyticsEnabled = () => {
-  return GA_MEASUREMENT_ID && typeof window !== 'undefined' && 'gtag' in window;
+  // 检查 Measurement ID 和 window 对象
+  if (!GA_MEASUREMENT_ID || typeof window === 'undefined') {
+    return false;
+  }
+  
+  // 检查 gtag 函数是否存在且是真正的函数（不是我们的占位符）
+  // 真正的 gtag 函数应该能发送网络请求
+  if (!('gtag' in window) || typeof window.gtag !== 'function') {
+    return false;
+  }
+  
+  // 检查脚本是否已加载（通过检查 dataLayer 中是否有配置）
+  if (!window.dataLayer || window.dataLayer.length === 0) {
+    return false;
+  }
+  
+  return true;
 };
 
 // 初始化 Google Analytics
@@ -26,26 +42,53 @@ export const initAnalytics = () => {
     return;
   }
 
-  // 加载 Google Analytics 脚本
-  const script1 = document.createElement('script');
-  script1.async = true;
-  script1.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
-  document.head.appendChild(script1);
-
-  // 初始化 gtag
+  // 初始化 dataLayer
   window.dataLayer = window.dataLayer || [];
-  window.gtag = function(...args: any[]) {
+  
+  // 定义 gtag 函数（在脚本加载前作为占位符）
+  function gtag(...args: any[]) {
     window.dataLayer.push(args);
+  }
+  
+  // 在脚本加载完成前，使用占位符函数
+  window.gtag = gtag;
+
+  // 加载 Google Analytics 脚本
+  const script = document.createElement('script');
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+  
+  // 监听脚本加载完成
+  script.onload = () => {
+    // 脚本加载后，gtag 会被 Google Analytics 覆盖为真正的函数
+    // 现在可以安全地调用配置
+    window.gtag('js', new Date());
+    window.gtag('config', GA_MEASUREMENT_ID, {
+      // 配置选项
+      send_page_view: true,
+      anonymize_ip: true, // 匿名化 IP，保护隐私
+      // 启用调试模式（开发环境）
+      debug_mode: import.meta.env.DEV,
+    });
   };
-
-  window.gtag('js', new Date());
-  window.gtag('config', GA_MEASUREMENT_ID, {
-    // 配置选项
+  
+  // 监听脚本加载错误
+  script.onerror = () => {
+    if (import.meta.env.DEV) {
+      console.error('[Analytics] Failed to load Google Analytics script');
+    }
+  };
+  
+  document.head.appendChild(script);
+  
+  // 在脚本加载前，先推送配置命令到 dataLayer
+  // 这样当脚本加载完成后会自动处理这些命令
+  window.dataLayer.push(['js', new Date()]);
+  window.dataLayer.push(['config', GA_MEASUREMENT_ID, {
     send_page_view: true,
-    anonymize_ip: true, // 匿名化 IP，保护隐私
-  });
-
-  console.log('[Analytics] Google Analytics initialized');
+    anonymize_ip: true,
+    debug_mode: import.meta.env.DEV,
+  }]);
 };
 
 // 跟踪页面访问
@@ -56,8 +99,6 @@ export const trackPageView = (path: string, title?: string) => {
     page_path: path,
     page_title: title,
   });
-
-  console.log('[Analytics] Page view tracked:', { path, title });
 };
 
 // 跟踪自定义事件
@@ -67,17 +108,14 @@ export const trackEvent = (
     [key: string]: string | number | boolean;
   }
 ) => {
-  if (!isAnalyticsEnabled()) {
-    console.warn('[Analytics] Analytics not enabled, event not sent:', eventName);
-    return;
-  }
+  if (!isAnalyticsEnabled()) return;
 
   try {
     window.gtag('event', eventName, eventParams);
-    console.log('[Analytics] Event tracked:', eventName, eventParams);
-    console.log('[Analytics] Check Network tab for "collect" requests to verify');
   } catch (error) {
-    console.error('[Analytics] Error tracking event:', error);
+    if (import.meta.env.DEV) {
+      console.error('[Analytics] Error tracking event:', error);
+    }
   }
 };
 
@@ -88,11 +126,14 @@ export const trackUserAction = (
   label?: string,
   value?: number
 ) => {
+  // GA4 推荐使用标准参数名
   const params: { [key: string]: string | number | boolean } = {
-    event_category: category,
+    event_category: category, // 保留用于兼容性
+    category: category, // GA4 标准参数
   };
   if (label !== undefined) {
-    params.event_label = label;
+    params.event_label = label; // 保留用于兼容性
+    params.label = label; // GA4 标准参数
   }
   if (value !== undefined) {
     params.value = value;
@@ -212,3 +253,46 @@ export const trackError = (error: Error, errorInfo?: string) => {
     error_info: errorInfo || '',
   });
 };
+
+// 诊断函数：检查 GA 配置和连接（仅开发环境）
+export const diagnoseAnalytics = () => {
+  if (!import.meta.env.DEV) {
+    console.warn('[Analytics] 诊断功能仅在开发环境可用');
+    return;
+  }
+
+  console.group('[Analytics] 诊断信息');
+  
+  const scripts = Array.from(document.querySelectorAll('script[src*="googletagmanager"]'));
+  const performanceEntries = performance.getEntriesByType('resource') as PerformanceResourceTiming[];
+  const gaRequests = performanceEntries.filter(entry => 
+    entry.name.includes('googletagmanager') || entry.name.includes('google-analytics')
+  );
+  const collectRequests = performanceEntries.filter(entry => 
+    entry.name.includes('/collect') || entry.name.includes('/g/collect')
+  );
+  
+  const result = {
+    measurementId: GA_MEASUREMENT_ID,
+    gtagLoaded: 'gtag' in window,
+    dataLayerExists: !!window.dataLayer,
+    dataLayerLength: window.dataLayer?.length || 0,
+    scriptTagsFound: scripts.length,
+    networkRequestsFound: gaRequests.length,
+    collectRequestsFound: collectRequests.length,
+  };
+  
+  console.log('诊断结果:', result);
+  console.log('脚本标签:', scripts.length > 0 ? '✅ 已找到' : '❌ 未找到');
+  console.log('网络请求:', gaRequests.length > 0 ? `✅ ${gaRequests.length} 个` : '❌ 未找到');
+  console.log('数据收集:', collectRequests.length > 0 ? `✅ ${collectRequests.length} 个` : '⚠️ 未找到');
+  
+  console.groupEnd();
+  
+  return result;
+};
+
+// 在控制台暴露诊断函数（仅开发环境）
+if (import.meta.env.DEV && typeof window !== 'undefined') {
+  (window as any).diagnoseAnalytics = diagnoseAnalytics;
+}
